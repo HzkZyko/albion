@@ -25,16 +25,22 @@ if not exist ".venv\Scripts\python.exe" (
     )
 )
 
-REM --- Installation / mise a jour des dependances ---
-REM On reinstalle silencieusement a chaque lancement : pip est idempotent
-REM et detecte tout de suite si requirements.txt a change.
+REM --- Repare pip si corrompu puis installe les dependances ---
 echo [Albion GPS] Verification des dependances...
-".venv\Scripts\python.exe" -m pip install --quiet --disable-pip-version-check --upgrade pip
+".venv\Scripts\python.exe" -m ensurepip --upgrade >nul 2>&1
+".venv\Scripts\python.exe" -m pip install --quiet --disable-pip-version-check --upgrade pip 2>nul
 ".venv\Scripts\python.exe" -m pip install --quiet --disable-pip-version-check -r requirements.txt
 if errorlevel 1 (
-    echo [ERREUR] Installation des dependances echouee.
-    pause
-    exit /b 1
+    echo [Albion GPS] Pip corrompu, recreation du venv...
+    rmdir /s /q .venv
+    python -m venv .venv
+    ".venv\Scripts\python.exe" -m ensurepip --upgrade >nul 2>&1
+    ".venv\Scripts\python.exe" -m pip install --quiet --disable-pip-version-check -r requirements.txt
+    if errorlevel 1 (
+        echo [ERREUR] Installation des dependances echouee.
+        pause
+        exit /b 1
+    )
 )
 
 REM --- Demande d'elevation admin (necessaire pour le sniffing Photon) ---
