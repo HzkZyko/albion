@@ -1,51 +1,53 @@
 @echo off
-REM ================================================================
-REM  Albion GPS - LANCEMENT
-REM  IMPORTANT : Clic droit -> "Executer en tant qu'administrateur"
-REM  Si c'est la premiere fois, lance d'abord install.bat
-REM ================================================================
-title Albion GPS
+REM Lance Albion GPS sur Windows. Cree un venv a la premiere execution
+REM et installe automatiquement les dependances depuis requirements.txt.
+setlocal
 cd /d "%~dp0"
 
-echo.
-echo  ============================================
-echo   ALBION GPS
-echo  ============================================
-echo.
+REM --- Detection d'une installation Python ---
+where python >nul 2>&1
+if errorlevel 1 (
+    echo [ERREUR] Python n'est pas installe ou pas dans le PATH.
+    echo Telecharge-le depuis https://www.python.org/downloads/ et coche
+    echo "Add python.exe to PATH" pendant l'installation.
+    pause
+    exit /b 1
+)
 
-REM --- Verif admin ---
+REM --- Creation du venv si necessaire ---
+if not exist ".venv\Scripts\python.exe" (
+    echo [Albion GPS] Creation de l'environnement virtuel...
+    python -m venv .venv
+    if errorlevel 1 (
+        echo [ERREUR] Impossible de creer le venv.
+        pause
+        exit /b 1
+    )
+)
+
+REM --- Installation / mise a jour des dependances ---
+REM On reinstalle silencieusement a chaque lancement : pip est idempotent
+REM et detecte tout de suite si requirements.txt a change.
+echo [Albion GPS] Verification des dependances...
+".venv\Scripts\python.exe" -m pip install --quiet --disable-pip-version-check --upgrade pip
+".venv\Scripts\python.exe" -m pip install --quiet --disable-pip-version-check -r requirements.txt
+if errorlevel 1 (
+    echo [ERREUR] Installation des dependances echouee.
+    pause
+    exit /b 1
+)
+
+REM --- Demande d'elevation admin (necessaire pour le sniffing Photon) ---
+REM On relance en admin si on ne l'est pas deja. Le sniffing reseau via
+REM Npcap/scapy exige des droits administrateur sous Windows.
 net session >nul 2>&1
 if errorlevel 1 (
-    echo  [ERREUR] Ce script doit etre lance en ADMINISTRATEUR.
-    echo.
-    echo  Comment faire :
-    echo    1. Clic droit sur run.bat
-    echo    2. "Executer en tant qu'administrateur"
-    echo.
-    echo  C'est necessaire pour la detection de zone (sniffing reseau).
-    echo.
-    pause
-    exit /b 1
+    echo [Albion GPS] Elevation en administrateur...
+    powershell -Command "Start-Process -FilePath '%~dpnx0' -Verb RunAs"
+    exit /b 0
 )
 
-REM --- Verif que l'install a ete faite ---
-if not exist ".venv\Scripts\python.exe" (
-    echo  [ERREUR] L'installation n'a pas ete faite.
-    echo  Lance d'abord install.bat puis reviens ici.
-    echo.
-    pause
-    exit /b 1
-)
-
-REM --- Lancement ---
-echo  Lancement d'Albion GPS...
-echo.
+REM --- Lancement de l'app ---
 ".venv\Scripts\python.exe" -m src.main
-
-echo.
-if errorlevel 1 (
-    echo  [ERREUR] L'application a quitte avec une erreur.
-    echo  Fais une capture d'ecran du texte ci-dessus.
-    echo.
-)
 pause
+endlocal
