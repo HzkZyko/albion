@@ -1558,8 +1558,10 @@ class AlbionGPSWindow(QMainWindow):
         n_ifaces = len(st["ifaces"])
         top_tuples = st.get("top_tuples") or []
 
-        # Diagnostic marche desactive : la detection auto est off.
-        market_block = ""
+        # Zone actuelle connue par le sniffer
+        current_sniffer_zone = st.get("current_zone", "?")
+        votes_total = st.get("votes_total", 0)
+        zone_header = f"[ZONE] actuelle={current_sniffer_zone} votes={votes_total} matchs={with_zone}\n"
 
         if seen == 0:
             msg = (
@@ -1588,8 +1590,8 @@ class AlbionGPSWindow(QMainWindow):
                 f"Messages : ev={ev}, op_req={oreq}, op_resp={oresp} | "
                 f"Frags : recus={frag_r}, assembled={frag_a} | "
                 f"RAW strings={raw_total}\n"
-                f"Op_responses :\n  {op_str}\n"
-                f"Echantillon strings : {sample_str}"
+                f"Strings brutes : {sample_str}\n"
+                f"Op_responses : {op_str}"
             )
         else:
             recent = st.get("recent_matches") or []
@@ -1601,7 +1603,7 @@ class AlbionGPSWindow(QMainWindow):
                 f"Derniers matchs :\n  {recent_str}"
             )
 
-        self.diag_label.setText(msg)
+        self.diag_label.setText(zone_header + msg)
 
     def _on_sniffer_zone(self, zone: str) -> None:
         self.zone_detected.emit(zone)

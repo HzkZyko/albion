@@ -39,7 +39,6 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Deque, Iterable, Optional
 
-from .market_parser import ITEM_ID_RE, MarketEvent, parse_market_event
 from .photon_proto import FragmentBuffer, PhotonMessage, parse_photon_packet
 from .world_index import WorldIndex
 
@@ -112,66 +111,6 @@ _GROUND_TRUTH_TUPLES: set[tuple[str, int, int]] = {
 }
 
 
-def _message_has_item_id(msg: "PhotonMessage") -> bool:
-    """True si les parametres du message contiennent au moins un string
-    qui ressemble a un ID d'item Albion (format T{n}_...)."""
-    def walk(v: Any) -> bool:
-        if isinstance(v, str):
-            return bool(ITEM_ID_RE.match(v.strip()))
-        if isinstance(v, (list, tuple)):
-            return any(walk(x) for x in v)
-        if isinstance(v, dict):
-            return any(walk(x) for x in v.values())
-        if isinstance(v, (bytes, bytearray)):
-            try:
-                s = bytes(v).decode("utf-8")
-            except UnicodeDecodeError:
-                return False
-            return bool(ITEM_ID_RE.match(s.strip()))
-        return False
-    return any(walk(val) for val in msg.params.values())
-
-
-def _collect_all_ints(value: Any, out: list[int]) -> None:
-    """Collecte recursivement TOUS les int positifs d'une valeur Photon."""
-    if isinstance(value, bool):
-        return
-    if isinstance(value, int):
-        if value > 0:
-            out.append(value)
-        return
-    if isinstance(value, (list, tuple)):
-        for v in value:
-            _collect_all_ints(v, out)
-        return
-    if isinstance(value, dict):
-        for v in value.values():
-            _collect_all_ints(v, out)
-
-
-def _message_looks_like_numeric_market(msg: "PhotonMessage") -> bool:
-    """True si le message a la signature numerique d'un achat/transaction.
-
-    Dans Albion, le silver est stocke en fixed point x10000 (precision
-    4 chiffres). Donc toute transaction monetaire contient un int tres
-    grand (>= 10000) qui est divisible par 100 au moins. On cherche aussi
-    un int "qty" raisonnable (1..10000) et un int "itemTypeId" (1..9999).
-
-    Criteres :
-      - au moins 3 ints positifs
-      - au moins 1 int >= 10000 ET divisible par 100 (silver*10000)
-      - au moins 1 int <= 10000 (potential qty ou itemTypeId)
-    """
-    ints: list[int] = []
-    for v in msg.params.values():
-        _collect_all_ints(v, ints)
-    if len(ints) < 3:
-        return False
-    has_silver = any(x >= 10_000 and x % 100 == 0 for x in ints)
-    has_small = any(1 <= x <= 10_000 for x in ints)
-    return has_silver and has_small
-
-
 def _normalize_location_string(raw: str) -> Optional[str]:
     """Transforme une valeur Location brute en nom d'affichage lisible.
 
@@ -214,42 +153,13 @@ class PhotonSniffer:
         world_index: WorldIndex,
         on_zone_change: Callable[[str], None],
         on_error: Optional[Callable[[str], None]] = None,
-        on_market_event: Optional[Callable[[MarketEvent], None]] = None,
+        on_market_event: Optional[Callable] = None,
         dump_path: Optional[Path] = None,
         dump_max_bytes: int = 10 * 1024 * 1024,
     ) -> None:
         self._index = world_index
         self._on_change = on_zone_change
         self._on_error = on_error or (lambda _msg: None)
-        self._on_market = on_market_event or (lambda _e: None)
-        # Dedup des events marche : on memorise les N derniers MarketEvent
-        # emis (sur une courte fenetre) pour ne pas fire deux fois pour le
-        # meme paquet retransmit / fragment rescanne.
-        self._recent_market: Deque[tuple[float, str, int, int]] = deque(maxlen=32)
-        # -- Diagnostic marche --
-        # Compteurs : ids detectes en raw (format T{n}_...), messages
-        # contenant au moins un id, market events emis, candidates rejetes
-        # par l'heuristique (qty/silver trop faibles).
-        self._market_ids_seen_raw = 0
-        self._market_msgs_with_id = 0
-        self._market_events_fired = 0
-        self._market_rejected_heuristic = 0
-        self._market_ids_last: Deque[tuple[float, str]] = deque(maxlen=10)
-        # Compteur des messages avec signature numerique d'achat (silver
-        # fixed-point x10000 present). Sert a identifier le vrai opcode de
-        # transaction quand les item IDs ne sont pas envoyes en string.
-        self._numeric_market_candidates = 0
-        # Histogramme des (kind, code) des messages qui passent la signature
-        # numerique : permet de reperer quels opcodes sont frequents pendant
-        # une session marche.
-        self._numeric_opcode_hist: dict[tuple[str, int], int] = defaultdict(int)
-        # Log de decouverte : chaque fois qu'un message Photon contient un
-        # string d'item ID Albion, on dump (kind, code, params) dans ce
-        # fichier pour analyse offline. Chemin a configurer via set_market_log.
-        self._market_log_path: Optional[Path] = None
-        self._market_log_file = None
-        self._market_log_written = 0
-        self._market_log_max_bytes = 2 * 1024 * 1024
         self._sniffers: list = []  # List[AsyncSniffer] - populated at start()
         self._stop_event = threading.Event()
         self._votes: Deque[_Vote] = deque()
@@ -415,6 +325,8 @@ class PhotonSniffer:
                 "messages_decoded": self._messages_decoded,
                 "last_candidate": self._last_candidate,
                 "ifaces": list(self._ifaces_listening),
+                "current_zone": self._current or "(aucune)",
+                "votes_total": len(self._votes),
                 "dump_bytes": self._dump_written,
                 "top_tuples": top_summary,
                 "recent_matches": recent,
@@ -429,23 +341,6 @@ class PhotonSniffer:
                 "groups_assembled": self._fragment_buffer.groups_assembled,
                 "op_response_samples": list(self._op_response_samples),
                 "event_samples": list(self._event_samples),
-                # --- Diagnostic marche ---
-                "market_ids_raw": self._market_ids_seen_raw,
-                "market_msgs_with_id": self._market_msgs_with_id,
-                "market_events_fired": self._market_events_fired,
-                "market_rejected": self._market_rejected_heuristic,
-                "market_last_ids": [
-                    f"-{int(time.time() - ts)}s {s}"
-                    for ts, s in list(self._market_ids_last)[-5:]
-                ],
-                "market_numeric_candidates": self._numeric_market_candidates,
-                "market_numeric_top_opcodes": sorted(
-                    [
-                        f"{k[0]}#{k[1]}={v}"
-                        for k, v in self._numeric_opcode_hist.items()
-                    ],
-                    key=lambda s: -int(s.split("=")[-1]),
-                )[:6],
             }
 
     @property
@@ -643,46 +538,6 @@ class PhotonSniffer:
                         f"op#{m.code} keys={keys[:8]} {val8_preview}"
                     )
 
-        # --- Detection des achats marche (desactivee, mais on garde le
-        # code en mode passif pour d'eventuelles futures analyses) ---
-        # IMPORTANT : tout ce bloc est dans un try/except global pour que
-        # JAMAIS une erreur ici ne bloque la detection de zone qui suit.
-        try:
-            for msg in messages:
-                has_item_id = _message_has_item_id(msg)
-                if has_item_id:
-                    with self._lock:
-                        self._market_msgs_with_id += 1
-                    self._log_market_candidate(msg, tag="STRING_ID")
-                has_numeric_sig = _message_looks_like_numeric_market(msg)
-                if has_numeric_sig:
-                    with self._lock:
-                        self._numeric_market_candidates += 1
-                        self._numeric_opcode_hist[(msg.kind, msg.code)] += 1
-                    self._log_market_candidate(msg, tag="NUMERIC")
-                if msg.kind == "op_response" and not has_numeric_sig:
-                    ints_tmp: list[int] = []
-                    for v in msg.params.values():
-                        _collect_all_ints(v, ints_tmp)
-                    if any(x >= 10_000 and x % 100 == 0 for x in ints_tmp):
-                        with self._lock:
-                            self._numeric_market_candidates += 1
-                            self._numeric_opcode_hist[(msg.kind, msg.code)] += 1
-                        self._log_market_candidate(msg, tag="OPRESP_SILVER")
-                try:
-                    market_evt = parse_market_event(msg)
-                except Exception:
-                    market_evt = None
-                if market_evt is not None:
-                    with self._lock:
-                        self._market_events_fired += 1
-                    self._maybe_fire_market(market_evt)
-                elif has_item_id:
-                    with self._lock:
-                        self._market_rejected_heuristic += 1
-        except Exception:
-            pass  # Ne JAMAIS bloquer la detection zone
-
         matched_this_packet = False
         for msg in messages:
             for tuple_key, zone in self._match_message(msg):
@@ -707,56 +562,117 @@ class PhotonSniffer:
             with self._lock:
                 self._packets_with_zone += 1
 
-    def _raw_scan(self, payload: bytes) -> None:
-        """Scan brut du payload UDP a la recherche de strings format Photon.
+    # ------------------------------------------------------------------
+    # Helpers pour _raw_scan : decodage varint LEB128 (Protocol18)
+    # ------------------------------------------------------------------
+    @staticmethod
+    def _read_varint(data: bytes, offset: int) -> tuple[int, int] | None:
+        """Decode un varint LEB128 a partir de *offset*.
 
-        Pattern : 0x73 (type=string), u16 BE longueur (1..64), N bytes UTF-8
-        printables. Chaque match est teste contre le WorldIndex. Si ca matche
+        Retourne (value, new_offset) ou None si on depasse la fin de *data*
+        ou si le varint fait plus de 5 bytes (protection anti-boucle).
+        """
+        result = 0
+        shift = 0
+        pos = offset
+        n = len(data)
+        for _ in range(5):           # max 5 bytes pour un int32
+            if pos >= n:
+                return None
+            b = data[pos]
+            pos += 1
+            result |= (b & 0x7F) << shift
+            if (b & 0x80) == 0:
+                return result, pos
+            shift += 7
+        return None                  # varint trop long, probablement faux
+
+    def _raw_scan(self, payload: bytes) -> None:
+        """Scan brut du payload UDP a la recherche de strings Photon.
+
+        On scanne deux formats en parallele :
+
+        * **Protocol18** (post Radiant Wilds) :
+          type byte ``7``, longueur en varint LEB128, puis N bytes UTF-8.
+
+        * **Legacy** (ancien format) :
+          type byte ``0x73``, longueur u16 big-endian, puis N bytes UTF-8.
+
+        Chaque string trouvee est testee contre le WorldIndex. Si ca matche
         un cluster, on ajoute un vote sous le tuple synthetique ('raw',0,0).
         Ca permet de detecter la zone meme si le parseur Photon complet
-        rate le message (cas : fragments non reassembles, type exotique)."""
+        rate le message (fragments non reassembles, type exotique, etc.)."""
         n = len(payload)
         i = 0
         tk = ("raw", 0, 0)
         now_ts = time.time()
-        while i < n - 3:
-            if payload[i] != 0x73:
+        while i < n - 2:
+            b = payload[i]
+
+            # --- Protocol18 string : type=7 + varint length + UTF-8 ---
+            if b == 0x07:
+                vi = self._read_varint(payload, i + 1)
+                if vi is not None:
+                    length, data_start = vi
+                    if 3 <= length <= 80 and data_start + length <= n:
+                        raw = payload[data_start : data_start + length]
+                        if all(32 <= c < 127 for c in raw):
+                            try:
+                                s = raw.decode("utf-8")
+                            except UnicodeDecodeError:
+                                i += 1
+                                continue
+                            with self._lock:
+                                self._raw_strings_total += 1
+                                self._raw_strings_seen.append(s)
+                            m = self._index.lookup_string(s)
+                            if m:
+                                with self._lock:
+                                    self._raw_strings_zone += 1
+                                    self._raw_zone_matches.append(
+                                        (now_ts, f"{s}->{m}"))
+                                    self._tuple_stats[tk][m] += 1
+                                    self._tuple_last[tk] = (now_ts, m)
+                                    self._recent_matches.append(
+                                        (now_ts, tk, m))
+                                    self._last_candidate = f"raw -> {m}"
+                                self._add_vote(m, tk)
+                            i = data_start + length
+                            continue
+                # Pas un varint valide ou longueur hors bornes -> avancer
                 i += 1
                 continue
-            length = (payload[i + 1] << 8) | payload[i + 2]
-            if length < 3 or length > 80 or i + 3 + length > n:
-                i += 1
-                continue
-            raw = payload[i + 3 : i + 3 + length]
-            # Rejette rapidement si bytes non-printables
-            if not all(32 <= b < 127 for b in raw):
-                i += 1
-                continue
-            try:
-                s = raw.decode("utf-8")
-            except UnicodeDecodeError:
-                i += 1
-                continue
-            with self._lock:
-                self._raw_strings_total += 1
-                self._raw_strings_seen.append(s)
-                # Detection raw d'un item ID Albion : utile pour savoir si
-                # le jeu envoie des IDs dans le trafic Photon meme quand le
-                # parseur complet n'arrive pas a les extraire.
-                if ITEM_ID_RE.match(s):
-                    self._market_ids_seen_raw += 1
-                    self._market_ids_last.append((now_ts, s))
-            m = self._index.lookup_string(s)
-            if m:
-                with self._lock:
-                    self._raw_strings_zone += 1
-                    self._raw_zone_matches.append((now_ts, f"{s}->{m}"))
-                    self._tuple_stats[tk][m] += 1
-                    self._tuple_last[tk] = (now_ts, m)
-                    self._recent_matches.append((now_ts, tk, m))
-                    self._last_candidate = f"raw -> {m}"
-                self._add_vote(m, tk)
-            i += 3 + length
+
+            # --- Legacy string : type=0x73 + u16 BE length + UTF-8 ---
+            if b == 0x73 and i + 2 < n:
+                length = (payload[i + 1] << 8) | payload[i + 2]
+                if 3 <= length <= 80 and i + 3 + length <= n:
+                    raw = payload[i + 3 : i + 3 + length]
+                    if all(32 <= c < 127 for c in raw):
+                        try:
+                            s = raw.decode("utf-8")
+                        except UnicodeDecodeError:
+                            i += 1
+                            continue
+                        with self._lock:
+                            self._raw_strings_total += 1
+                            self._raw_strings_seen.append(s)
+                        m = self._index.lookup_string(s)
+                        if m:
+                            with self._lock:
+                                self._raw_strings_zone += 1
+                                self._raw_zone_matches.append(
+                                    (now_ts, f"{s}->{m}"))
+                                self._tuple_stats[tk][m] += 1
+                                self._tuple_last[tk] = (now_ts, m)
+                                self._recent_matches.append(
+                                    (now_ts, tk, m))
+                                self._last_candidate = f"raw -> {m}"
+                            self._add_vote(m, tk)
+                        i += 3 + length
+                        continue
+
+            i += 1
 
     def _match_message(self, msg: PhotonMessage):
         """Yield (tuple_key, zone) pour chaque match trouve dans un message.
@@ -868,101 +784,6 @@ class PhotonSniffer:
                 if m:
                     yield m
             return
-
-    # --------------------------------------------------------------- market
-
-    def set_market_log(self, path: Optional[Path]) -> None:
-        """Active (ou desactive si None) le dump des messages candidats
-        marche dans un fichier texte pour analyse offline.
-
-        On n'ouvre PAS de handle persistant : sur Windows, Python locke
-        le fichier en exclusif par defaut, empechant une autre app (ou
-        l'user) de lire le fichier pendant que le sniffer tourne. Chaque
-        ecriture fait open/write/close pour rester lisible en permanence.
-
-        Au premier appel on TRONQUE le fichier (mode "w") pour partir d'un
-        etat vierge, puis on passe en mode append pour toutes les ecritures
-        suivantes.
-        """
-        self._market_log_path = path
-        self._market_log_file = None  # plus de handle persistant
-        self._market_log_written = 0
-        if path is None:
-            return
-        try:
-            path.parent.mkdir(parents=True, exist_ok=True)
-            # Truncate initial du fichier pour repartir vierge
-            with open(path, "w", encoding="utf-8") as f:
-                f.write("")
-        except OSError as e:
-            self._on_error(f"Impossible d'ouvrir {path} : {e}")
-            self._market_log_path = None
-
-    def _log_market_candidate(self, msg: PhotonMessage, tag: str = "STRING_ID") -> None:
-        """Dump un message Photon candidat marche dans le log discovery.
-
-        tag indique le type de detection : "STRING_ID" (contient un item ID
-        string T{n}_...) ou "NUMERIC" (contient une signature numerique
-        silver fixed-point). Utile pour trier le log apres coup.
-
-        Ecriture open-write-close a chaque ligne pour que le fichier
-        reste lisible par l'user pendant que l'appli tourne (probleme
-        de lock exclusif Windows avec les handles persistants Python).
-        """
-        if self._market_log_path is None:
-            return
-        if self._market_log_written >= self._market_log_max_bytes:
-            return
-        try:
-            import json
-
-            def safe(v):
-                if isinstance(v, (bytes, bytearray)):
-                    return f"<bytes len={len(v)}>"
-                if isinstance(v, dict):
-                    return {str(k): safe(x) for k, x in v.items()}
-                if isinstance(v, (list, tuple)):
-                    return [safe(x) for x in v]
-                if isinstance(v, (str, int, float, bool)) or v is None:
-                    return v
-                return repr(v)
-
-            entry = {
-                "ts": round(time.time(), 3),
-                "tag": tag,
-                "kind": msg.kind,
-                "code": msg.code,
-                "params": {str(k): safe(v) for k, v in msg.params.items()},
-            }
-            line = json.dumps(entry, ensure_ascii=False) + "\n"
-            with open(self._market_log_path, "a", encoding="utf-8") as f:
-                f.write(line)
-            self._market_log_written += len(line)
-        except Exception:
-            pass
-
-    def _maybe_fire_market(self, event: MarketEvent) -> None:
-        """Emet un MarketEvent en dedupant les doublons sur une fenetre courte.
-
-        Les paquets Photon sont parfois retransmits et les memes params
-        refont apparition dans plusieurs fragments reassembles. Sans dedup
-        on incrementerait 2-3 fois la liste de course pour un seul achat.
-        """
-        now = time.time()
-        sig = (event.item_id, event.quantity, event.total_silver)
-        with self._lock:
-            cutoff = now - 5.0  # fenetre de 5s pour le dedup
-            # Purge des anciens
-            while self._recent_market and self._recent_market[0][0] < cutoff:
-                self._recent_market.popleft()
-            for ts, iid, qty, silver in self._recent_market:
-                if (iid, qty, silver) == sig:
-                    return  # deja fire recemment, on ignore
-            self._recent_market.append((now, *sig))
-        try:
-            self._on_market(event)
-        except Exception as e:  # pragma: no cover
-            self._on_error(f"Callback on_market_event a leve : {e}")
 
     # --------------------------------------------------------------- voting
 

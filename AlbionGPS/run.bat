@@ -53,6 +53,10 @@ if errorlevel 1 (
     exit /b 0
 )
 
+REM --- Nettoyage du cache Python (evite les .pyc obsoletes) ---
+echo [Albion GPS] Nettoyage du cache...
+if exist "src\__pycache__" rmdir /s /q "src\__pycache__"
+
 REM --- Lancement de l'app ---
 ".venv\Scripts\python.exe" -m src.main
 pause
