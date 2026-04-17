@@ -1,0 +1,8085 @@
+{
+  "zones": {
+    "Swamp Cross": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -52.44,
+        160.51
+      ],
+      "type_raw": "STARTINGCITY",
+      "cid": "0004"
+    },
+    "Tharcal Fissure": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        76.23,
+        235.27
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4206"
+    },
+    "Cairn Darg": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        99.57,
+        245.26
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4209"
+    },
+    "Gwan Gorge": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -28.5,
+        164.72
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4210"
+    },
+    "Malag Crevasse": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        26.83,
+        255.95
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "4215"
+    },
+    "Creag Morr": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        36.88,
+        271.2
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "4216"
+    },
+    "Cairn Camain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        61.8,
+        226.4
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4213"
+    },
+    "Cairn Glascore": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        21.17,
+        204.41
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4212"
+    },
+    "Pen Gent": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        59.06,
+        184.09
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4207"
+    },
+    "Pen Garn": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        45.38,
+        180.33
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4201"
+    },
+    "Crose Gorge": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        91.6,
+        191.47
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4203"
+    },
+    "Birken Fell": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        13.98,
+        271.68
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "3201"
+    },
+    "Eldon Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -45.16,
+        263.14
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3204"
+    },
+    "Lewsdon Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -50.78,
+        248.39
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3203"
+    },
+    "Blackthorn Quarry": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -44.41,
+        296.7
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3207"
+    },
+    "Haytor": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -68.29,
+        259.19
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3206"
+    },
+    "Brent Knoll": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -81.75,
+        283.53
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3209"
+    },
+    "Mase Knoll": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -78.38,
+        300.51
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3210"
+    },
+    "Croker Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -39.2,
+        324.87
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3212"
+    },
+    "Goffers Knoll": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -23.08,
+        378.13
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3215"
+    },
+    "Vixen Tor": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -10.34,
+        368.16
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3213"
+    },
+    "Prospector's Hope": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        15.44,
+        401.33
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2215"
+    },
+    "Steelhide Meadow": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        112.33,
+        392.19
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2213"
+    },
+    "Longmarch Meadow": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        26.21,
+        387.5
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2212"
+    },
+    "Lazygrass Plain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        36.32,
+        356.61
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2209"
+    },
+    "Snapshaft Trough": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        42.48,
+        374.94
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2210"
+    },
+    "Drywater Meadow": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        46.44,
+        391.8
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2207"
+    },
+    "Parchthroat Plain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        73.43,
+        380.18
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2206"
+    },
+    "Deadvein Gully": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        16.71,
+        312.83
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "2204"
+    },
+    "Roastcorpse Steppe": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        10.76,
+        299.84
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "2203"
+    },
+    "Kindlegrass Steppe": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        45.57,
+        343.88
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "2201"
+    },
+    "Ferndell": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        118.74,
+        321.36
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1215"
+    },
+    "Wyre Forest": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        43.66,
+        294.24
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "1213"
+    },
+    "Stagbourne": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        137.31,
+        327.88
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1212"
+    },
+    "Murkweald": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        72.6,
+        321.91
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "1210"
+    },
+    "Longtimber Glen": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        56.07,
+        283.97
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "1209"
+    },
+    "Birchcopse": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        139.54,
+        307.32
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1207"
+    },
+    "Willow Wood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        102.13,
+        334.67
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1206"
+    },
+    "Oakcopse": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        139.29,
+        257.71
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1204"
+    },
+    "Rowanwood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        119.86,
+        244.96
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1203"
+    },
+    "Larchroad": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        101.51,
+        207.49
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1201"
+    },
+    "Pen Kerrig": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        101.8,
+        227.26
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4204"
+    },
+    "Slimehag": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -95.11,
+        267.64
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0214"
+    },
+    "Bonepool Marsh": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -68.54,
+        235.28
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0212"
+    },
+    "Spectral Sump": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        31.01,
+        214.84
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "0211"
+    },
+    "Willowsigh Marsh": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -8.06,
+        200.54
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0203"
+    },
+    "Stumprot Swamp": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -11.07,
+        247.18
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "0208"
+    },
+    "Dusklight Fen": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -35.56,
+        191.27
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0206"
+    },
+    "Dewleaf Fen": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -70.74,
+        209.42
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0209"
+    },
+    "Stinkhag": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -54.88,
+        179.41
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0205"
+    },
+    "Chillhag": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -40.17,
+        173.23
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0202"
+    },
+    "Slowtree Plain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        17.55,
+        351.59
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2208"
+    },
+    "Smoothfloor Cleft": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        2.58,
+        362.48
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2211"
+    },
+    "Gutras Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -27.29,
+        273.23
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3205"
+    },
+    "Mardale": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        1.03,
+        285.28
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "3202"
+    },
+    "Wispwhisper Marsh": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -57.42,
+        223.59
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0210"
+    },
+    "Curlew Fen": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -86.27,
+        250.45
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0213"
+    },
+    "Saddle Tor": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -41.73,
+        376.36
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3211"
+    },
+    "Windripple Fen": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -6.89,
+        176.07
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0204"
+    },
+    "Mawar Gorge": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        87.02,
+        213.86
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4208"
+    },
+    "Russerdell": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        129.47,
+        232.57
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1202"
+    },
+    "Bryn Gorge": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        74.74,
+        184.14
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4202"
+    },
+    "Cairn Gorm": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        31.01,
+        194.24
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4205"
+    },
+    "Bowscale Fell": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -30.96,
+        248.54
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "3208"
+    },
+    "Cairn Fidair": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        44.55,
+        208.12
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4214"
+    },
+    "Creag Garr": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        56.6,
+        248.05
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "4211"
+    },
+    "Nightcreak Marsh": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -14.47,
+        217.69
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0207"
+    },
+    "Fractured Ground": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        6.35,
+        384.27
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2214"
+    },
+    "Cracked Earth": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        131.51,
+        345.57
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2202"
+    },
+    "Redlake": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        153.34,
+        318.19
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1208"
+    },
+    "Yew Wood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        111.31,
+        286.05
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1211"
+    },
+    "Highbole Glen": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        88.28,
+        278.99
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "1205"
+    },
+    "Hornbeam Wood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        99.91,
+        294.64
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1214"
+    },
+    "Steppe Cross": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.11,
+        403.6
+      ],
+      "type_raw": "STARTINGCITY",
+      "cid": "2002"
+    },
+    "Highland Cross": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -96.41,
+        302.44
+      ],
+      "type_raw": "STARTINGCITY",
+      "cid": "3002"
+    },
+    "Haldon Tor": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -62.94,
+        312.55
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3214"
+    },
+    "Martlock": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -58.59,
+        280.33
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_01",
+      "cid": "3004"
+    },
+    "Fort Sterling": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        70.83,
+        208.91
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_02",
+      "cid": "4000"
+    },
+    "Forest Cross": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        155.02,
+        333.01
+      ],
+      "type_raw": "STARTINGCITY",
+      "cid": "1006"
+    },
+    "Mountain Cross": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        101.07,
+        179.07
+      ],
+      "type_raw": "STARTINGCITY",
+      "cid": "4006"
+    },
+    "Thetford": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -19.82,
+        187.29
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_01",
+      "cid": "0000"
+    },
+    "Sleetwater Basin": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        6.92,
+        192.61
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0201"
+    },
+    "Lymhurst": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        127.54,
+        313.69
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_02",
+      "cid": "1000"
+    },
+    "Camlann": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        11.38,
+        243.03
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "0005"
+    },
+    "Astolat": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        28.81,
+        336.82
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "2009"
+    },
+    "Bridgewatch": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        15.8,
+        370.8
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_01",
+      "cid": "2000"
+    },
+    "Caerleon": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        28.21,
+        288.95
+      ],
+      "type_raw": "PLAYERCITY_BLACK_ROYAL",
+      "cid": "3003"
+    },
+    "Runnel Sink": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -12.16,
+        274.81
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "3245"
+    },
+    "Inis Mon": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        113.74,
+        262.17
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1007"
+    },
+    "Cedarcopse": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        115.95,
+        215.29
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1246"
+    },
+    "Bellever Tor": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -52.69,
+        335.15
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3249"
+    },
+    "Pen Uchaf": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        58.08,
+        162.11
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4249"
+    },
+    "Shiftshadow Expanse": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        9.33,
+        328.66
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "2205"
+    },
+    "Caerleon Market": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_BLACK_ROYAL_NOFURNITURE",
+      "cid": "3005"
+    },
+    "Bank of Caerleon": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_BLACK_ROYAL_NOFURNITURE",
+      "cid": "3006"
+    },
+    "Bank of Thetford": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "0006"
+    },
+    "Thetford Market": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "0007"
+    },
+    "Bank of Lymhurst": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "1001"
+    },
+    "Lymhurst Market": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "1002"
+    },
+    "Bank of Bridgewatch": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "2003"
+    },
+    "Bridgewatch Market": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "2004"
+    },
+    "Bank of Martlock": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "3007"
+    },
+    "Martlock Market": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "3008"
+    },
+    "Bank of Fort Sterling": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "4001"
+    },
+    "Fort Sterling Market": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_SAFEAREA_NOFURNITURE",
+      "cid": "4002"
+    },
+    "Forgotten Woods": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -122.14,
+        326.07
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "1009"
+    },
+    "Mountain Fort": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -115.68,
+        325.43
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "1010"
+    },
+    "The Cove": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -123.3,
+        331.2
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "1011"
+    },
+    "Northstrand Dunes": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -18.24,
+        -408.0
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2305"
+    },
+    "Northstrand Beach": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -7.78,
+        -398.1
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2326"
+    },
+    "Scuttlesink Mouth": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        7.5,
+        -384.38
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0324"
+    },
+    "Deepwood Dell": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        90.37,
+        -238.44
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1306"
+    },
+    "Whitebank Stream": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        76.65,
+        -272.8
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4308"
+    },
+    "Whitebank Shore": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        101.75,
+        -256.89
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4309"
+    },
+    "Whitebank Cross": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        67.46,
+        -251.59
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4311"
+    },
+    "Whitebank Wall": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        57.35,
+        -265.09
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4326"
+    },
+    "Meltwater Bog": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        45.82,
+        -282.28
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0307"
+    },
+    "Whitebank Descent": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        78.14,
+        -297.76
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4305"
+    },
+    "Whitebank Ridge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        69.86,
+        -282.56
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4338"
+    },
+    "Timberslope Dell": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        166.24,
+        -202.16
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1326"
+    },
+    "Deepwood Pines": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        94.96,
+        -218.28
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1340"
+    },
+    "Frostpeak Vista": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        160.71,
+        -255.31
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4306"
+    },
+    "Frostpeak Ascent": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        157.12,
+        -238.58
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4324"
+    },
+    "Floatshoal Fissure": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        116.74,
+        -195.3
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4327"
+    },
+    "Floatshoal Bight": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        147.79,
+        -193.61
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4339"
+    },
+    "Meltwater Delta": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        63.92,
+        -301.79
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0325"
+    },
+    "Meltwater Sump": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        48.65,
+        -314.66
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0338"
+    },
+    "Skysand Plateau": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        6.08,
+        -303.21
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2307"
+    },
+    "Everwinter Crossing": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        39.53,
+        -300.45
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4307"
+    },
+    "Everwinter Plain": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        24.61,
+        -310.84
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4323"
+    },
+    "Everwinter Gorge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        26.8,
+        -292.95
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4325"
+    },
+    "Scuttlesink Marsh": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        6.86,
+        -362.25
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0353"
+    },
+    "Brambleshore Hinterlands": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        20.93,
+        -370.95
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1305"
+    },
+    "Shaleheath Steep": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -6.65,
+        -340.27
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3338"
+    },
+    "Everwinter Reach": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        42.57,
+        -358.36
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4321"
+    },
+    "Everwinter Peak": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        17.25,
+        -326.82
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4322"
+    },
+    "Everwinter Passage": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        32.17,
+        -339.06
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4337"
+    },
+    "Everwinter Expanse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -14.15,
+        -323.76
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4340"
+    },
+    "Everwinter Incline": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.5,
+        -318.55
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4353"
+    },
+    "Scuttlesink Pools": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -0.92,
+        -373.14
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0306"
+    },
+    "Timbertop Dale": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -20.01,
+        -381.34
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1325"
+    },
+    "Timbertop Wood": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -31.61,
+        -393.36
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1338"
+    },
+    "Timbertop Escarp": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -29.63,
+        -372.43
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1353"
+    },
+    "Shaleheath Hills": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -14.7,
+        -352.56
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3326"
+    },
+    "Everwinter Shores": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -21.51,
+        -335.39
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4310"
+    },
+    "Wetgrave Bog": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        189.36,
+        -144.96
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0305"
+    },
+    "Wetgrave Swale": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        178.83,
+        -159.45
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0339"
+    },
+    "Wetgrave Marsh": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        175.49,
+        -130.86
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0342"
+    },
+    "Timberslope Grove": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        170.2,
+        -189.86
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1339"
+    },
+    "Timberslope Bridge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        162.02,
+        -173.88
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1354"
+    },
+    "Swiftsands Plain": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        205.06,
+        -171.97
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2306"
+    },
+    "Drybasin Riverbed": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        164.12,
+        -147.57
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2308"
+    },
+    "Swiftsands Basin": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        194.31,
+        -181.02
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2339"
+    },
+    "Swiftsands Chaparral": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        192.55,
+        -166.24
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2354"
+    },
+    "Skylake Bridge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        145.31,
+        -163.84
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3327"
+    },
+    "Greenshore Bay": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        180.52,
+        -79.55
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1355"
+    },
+    "Flatrock Cliffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        176.64,
+        -98.85
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3305"
+    },
+    "Skullmarsh Lower": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        165.89,
+        -3.25
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0315"
+    },
+    "Skullmarsh Upper": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        175.57,
+        -18.46
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0343"
+    },
+    "Greenshore Peninsula": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        173.74,
+        -67.67
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1307"
+    },
+    "Giantweald Dale": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        139.23,
+        -91.85
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1308"
+    },
+    "Watchwood Precipice": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        144.67,
+        -49.64
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1311"
+    },
+    "Watchwood Grove": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        151.6,
+        -26.3
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1315"
+    },
+    "Giantweald Woods": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        133.08,
+        -109.04
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "1328"
+    },
+    "Watchwood Lakeside": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        155.28,
+        -56.57
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1329"
+    },
+    "Watchwood Bluffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        161.22,
+        -34.08
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1330"
+    },
+    "Giantweald Edge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        157.54,
+        -115.68
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1341"
+    },
+    "Slakesands Canyon": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        180.71,
+        -47.83
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2309"
+    },
+    "Drybasin Oasis": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        149.98,
+        -133.29
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2341"
+    },
+    "Slakesands Mesa": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        170.23,
+        -48.99
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2342"
+    },
+    "Flatrock Plateau": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        162.14,
+        -89.31
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3328"
+    },
+    "Munten Rise": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        139.8,
+        -64.13
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4315"
+    },
+    "Munten Tundra": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        120.42,
+        -76.16
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4331"
+    },
+    "Munten Fell": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        147.57,
+        -75.59
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4345"
+    },
+    "Hightree Steep": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        116.67,
+        -50.06
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1313"
+    },
+    "Hightree Lake": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        87.33,
+        -56.78
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1316"
+    },
+    "Hightree Dale": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        124.1,
+        -19.3
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1317"
+    },
+    "Hightree Strand": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        88.6,
+        -22.27
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1319"
+    },
+    "Hightree Glade": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        113.28,
+        7.21
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1320"
+    },
+    "Hightree Enclave": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        91.08,
+        15.7
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1322"
+    },
+    "Hightree Pass": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        109.96,
+        -62.86
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1332"
+    },
+    "Hightree Levee": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        80.54,
+        -7.85
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1335"
+    },
+    "Hightree Cliffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        117.1,
+        28.0
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1336"
+    },
+    "Hightree Isle": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        138.0,
+        -13.35
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1345"
+    },
+    "Hightree Hillock": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        69.03,
+        -40.71
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "1347"
+    },
+    "Glacierbreak Summit": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        153.87,
+        13.86
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4332"
+    },
+    "Drownfield Course": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -34.58,
+        -316.34
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0308"
+    },
+    "Widemoor Shore": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -108.05,
+        -365.23
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0309"
+    },
+    "Widemoor Pool": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -96.03,
+        -341.96
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0312"
+    },
+    "Willowshade Wetlands": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -108.54,
+        -304.27
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0314"
+    },
+    "Widemoor Estuary": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -135.99,
+        -322.36
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0316"
+    },
+    "Widemoor Hills": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -91.15,
+        -354.37
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0327"
+    },
+    "Drownfield Wetland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -53.41,
+        -311.7
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0328"
+    },
+    "Widemoor End": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -90.75,
+        -325.24
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0330"
+    },
+    "Willowshade Pools": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -89.73,
+        -295.43
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0331"
+    },
+    "Widemoor Woods": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -125.51,
+        -300.17
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0333"
+    },
+    "Willowshade Hills": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -109.11,
+        -276.41
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0344"
+    },
+    "Timberscar Dell": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -75.31,
+        -302.29
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1309"
+    },
+    "Timberscar Copse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -74.88,
+        -330.45
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1342"
+    },
+    "Drytop Riverbed": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -76.67,
+        -364.93
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2327"
+    },
+    "Drytop Pillars": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -67.53,
+        -352.21
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2328"
+    },
+    "Drownfield Mire": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -33.21,
+        -286.97
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0310"
+    },
+    "Drownfield Fen": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -21.34,
+        -250.95
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "0313"
+    },
+    "Drownfield Slough": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -17.46,
+        -270.25
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0329"
+    },
+    "Drownfield Rut": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -37.62,
+        -247.06
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "0332"
+    },
+    "Drownfield Quag": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -32.53,
+        -262.2
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0340"
+    },
+    "Meltwater Channel": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        36.91,
+        -271.25
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0354"
+    },
+    "Drownfield Sink": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -32.81,
+        -230.38
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "0355"
+    },
+    "Deadpine Forest": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -19.94,
+        -219.63
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "1312"
+    },
+    "Skysand Ridge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -3.61,
+        -287.01
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "2340"
+    },
+    "Citadel of Ash": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -15.49,
+        -298.47
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2355"
+    },
+    "Glacierfall Passage": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        48.22,
+        -251.45
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4312"
+    },
+    "Whitepeak Ascent": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -62.73,
+        -259.75
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4317"
+    },
+    "Glacierfall Canyon": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        17.82,
+        -227.69
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "4329"
+    },
+    "Everwinter Gap": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        13.44,
+        -279.59
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4341"
+    },
+    "Glacierfall Cross": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        29.49,
+        -243.46
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "4343"
+    },
+    "Glacierfall Valley": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        38.96,
+        -230.73
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4344"
+    },
+    "Whitepeak Spring": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -70.71,
+        -278.03
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4348"
+    },
+    "Glacierfall Pass": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        2.83,
+        -240.56
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "4355"
+    },
+    "Whitepeak Tundra": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -49.02,
+        -277.45
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4357"
+    },
+    "Springsump Basin": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -22.27,
+        -4.45
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0321"
+    },
+    "Springsump Wetland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -38.43,
+        -11.73
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0335"
+    },
+    "Springsump Melt": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -32.1,
+        3.11
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0351"
+    },
+    "Southgrove Escarp": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -9.83,
+        76.01
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1314"
+    },
+    "Southgrove Copse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -16.97,
+        58.83
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1337"
+    },
+    "Southgrove Thicket": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -8.27,
+        49.57
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1350"
+    },
+    "Dryvein Cross": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -54.83,
+        -21.74
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2315"
+    },
+    "Sunstrand Shoal": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        6.13,
+        38.28
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2316"
+    },
+    "Sunstrand Delta": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        33.87,
+        64.6
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2317"
+    },
+    "Dryvein Plain": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -58.48,
+        -1.34
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2319"
+    },
+    "Farshore Esker": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -120.1,
+        -36.26
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2320"
+    },
+    "Dryvein Oasis": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -75.02,
+        -21.0
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2334"
+    },
+    "Sunstrand Dunes": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        25.48,
+        77.12
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2335"
+    },
+    "Farshore Heath": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -110.59,
+        -22.63
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2336"
+    },
+    "Sunstrand Quicksands": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        4.95,
+        60.25
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2348"
+    },
+    "Battlebrae Peaks": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -77.57,
+        -53.39
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3317"
+    },
+    "Stonelake Fields": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -103.17,
+        3.75
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3325"
+    },
+    "Stonelake Hillock": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -93.69,
+        -11.1
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3336"
+    },
+    "Stonemouth Southbluff": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        34.52,
+        41.21
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3358"
+    },
+    "Frostspring Passage": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -17.25,
+        31.68
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4336"
+    },
+    "Frostspring Volcano": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -6.63,
+        17.36
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4351"
+    },
+    "Whitewall Ridge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -94.61,
+        -35.5
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4352"
+    },
+    "Whitewall Pass": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -100.8,
+        -51.3
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4359"
+    },
+    "Runnelvein Slough": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        71.7,
+        -166.17
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "0311"
+    },
+    "Runnelvein Bog": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        86.41,
+        -176.07
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0326"
+    },
+    "Runnelvein Sink": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        67.39,
+        -151.25
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "0341"
+    },
+    "Giantweald Copse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        113.07,
+        -110.52
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "1310"
+    },
+    "Deepwood Gorge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        64.91,
+        -234.19
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1327"
+    },
+    "Giantweald Roots": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        95.6,
+        -103.8
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "1331"
+    },
+    "Deepwood Copse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        56.71,
+        -216.37
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "1343"
+    },
+    "Giantweald Glade": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        104.58,
+        -91.57
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1344"
+    },
+    "Eye of the Forest": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        117.38,
+        -130.67
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "1356"
+    },
+    "Eldersleep": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        50.85,
+        -206.14
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "1357"
+    },
+    "Skylake Hinterlands": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        137.96,
+        -150.97
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3339"
+    },
+    "Thunderrock Draw": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        58.34,
+        -131.45
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3353"
+    },
+    "Floatshoal Floe": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        105.99,
+        -177.87
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4313"
+    },
+    "Iceburn Firth": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        35.0,
+        -178.69
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "4318"
+    },
+    "Flammog Fork": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        78.42,
+        -120.84
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "4319"
+    },
+    "Iceburn Peaks": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        66.26,
+        -189.01
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4328"
+    },
+    "Flammog Valley": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        93.2,
+        -125.86
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "4330"
+    },
+    "Iceburn Cliffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        78.35,
+        -205.91
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4342"
+    },
+    "Iceburn Tundra": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        52.54,
+        -181.23
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "4346"
+    },
+    "Flammog Desolation": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        99.35,
+        -151.25
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4354"
+    },
+    "Glacierfall Fissure": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        16.97,
+        -203.51
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "4356"
+    },
+    "Widemoor Delta": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -154.71,
+        -330.08
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0317"
+    },
+    "Willowshade Mire": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -123.53,
+        -252.08
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0318"
+    },
+    "Willowshade Lake": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -106.7,
+        -243.88
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0319"
+    },
+    "Willowshade Icemarsh": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -135.91,
+        -244.23
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0320"
+    },
+    "Widemoor Flats": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -153.87,
+        -291.05
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0334"
+    },
+    "Willowshade Sink": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -92.42,
+        -262.41
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0345"
+    },
+    "Widemoor Fen": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -161.72,
+        -278.95
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "0348"
+    },
+    "Twinchannel Narrows": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -191.62,
+        -192.65
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0350"
+    },
+    "Unhallowed Cloister": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -178.57,
+        -202.49
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0357"
+    },
+    "Westweald Thicket": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -205.56,
+        -176.1
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1323"
+    },
+    "Driftwood Glen": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -118.72,
+        -232.14
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "1334"
+    },
+    "Westweald Shore": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -219.11,
+        -193.77
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1351"
+    },
+    "Sandmount Strand": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -209.58,
+        -211.7
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2312"
+    },
+    "Bleachskull Steppe": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -192.12,
+        -166.95
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2314"
+    },
+    "Sandmount Esker": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -248.65,
+        -188.0
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2318"
+    },
+    "Sandrift Steppe": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -58.27,
+        16.4
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2321"
+    },
+    "Sandrift Prairie": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -97.86,
+        20.79
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2322"
+    },
+    "Sandrift Coast": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -50.47,
+        45.96
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2323"
+    },
+    "Sandrift Shore": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -56.21,
+        58.34
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2324"
+    },
+    "Farshore Bay": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -113.95,
+        33.78
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2325"
+    },
+    "Bleachskull Desert": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -176.49,
+        -148.63
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2333"
+    },
+    "Sandrift Expanse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -40.65,
+        35.7
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2337"
+    },
+    "Farshore Lagoon": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -122.9,
+        -3.68
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2338"
+    },
+    "Sandmount Desert": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -257.74,
+        -175.43
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2349"
+    },
+    "Sandrift Dunes": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -73.74,
+        7.01
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2350"
+    },
+    "Farshore Drylands": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -134.7,
+        -27.51
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2351"
+    },
+    "Sandrift Fringe": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -34.61,
+        58.73
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "2352"
+    },
+    "Farshore Cape": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -137.39,
+        8.98
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2353"
+    },
+    "Sandmount Ascent": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -222.1,
+        -216.45
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2358"
+    },
+    "Braemore Upland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -213.48,
+        -241.05
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3309"
+    },
+    "Windgrass Border": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -205.63,
+        -150.47
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3318"
+    },
+    "Windgrass Gully": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -237.23,
+        -152.1
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3320"
+    },
+    "Windgrass Rill": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -201.95,
+        -127.28
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3321"
+    },
+    "Windgrass Precipice": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -251.59,
+        -146.37
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3322"
+    },
+    "Braemore Lowland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -191.41,
+        -238.51
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3331"
+    },
+    "Windgrass Fields": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -189.22,
+        -138.59
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3333"
+    },
+    "Windgrass Coast": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -248.12,
+        -159.31
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3334"
+    },
+    "Highstone Mound": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -163.84,
+        -180.67
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3346"
+    },
+    "Avalanche Ravine": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -129.04,
+        -201.72
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4314"
+    },
+    "Frostbite Chasm": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -228.61,
+        -173.5
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4316"
+    },
+    "Frostseep Ravine": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -148.14,
+        -260.29
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4320"
+    },
+    "Frostbite Mountain": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -221.25,
+        -164.54
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "4335"
+    },
+    "Frostseep Crevasse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -129.59,
+        -274.03
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4347"
+    },
+    "Longfen Marsh": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -134.42,
+        -50.42
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0322"
+    },
+    "Mudfoot Sump": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -207.39,
+        -90.58
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0323"
+    },
+    "Mudfoot Mounds": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -223.3,
+        -82.02
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "0337"
+    },
+    "Longfen Veins": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -123.6,
+        -62.08
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0352"
+    },
+    "Deathreach Priory": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -136.05,
+        -78.21
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0359"
+    },
+    "Greenhollow Vale": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -162.14,
+        -102.18
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "1324"
+    },
+    "Greenhollow Copse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -175.86,
+        -95.67
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1352"
+    },
+    "Highstone Plains": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -135.69,
+        -141.92
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3315"
+    },
+    "Battlebrae Flatland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -120.84,
+        -85.91
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3316"
+    },
+    "Highstone Grassland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -166.1,
+        -129.61
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3319"
+    },
+    "Gravemound Brim": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -211.71,
+        -62.79
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3323"
+    },
+    "Gravemound Hills": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -182.29,
+        -70.15
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3324"
+    },
+    "Gravemound Slope": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -192.47,
+        -81.46
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3337"
+    },
+    "Battlebrae Meadow": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -107.48,
+        -75.29
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3349"
+    },
+    "Windgrass Terrace": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -189.36,
+        -110.31
+      ],
+      "type_raw": "OPENPVP_BLACK_1",
+      "cid": "3350"
+    },
+    "Gravemound Knoll": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -160.37,
+        -67.32
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3351"
+    },
+    "Gravemound Cliffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -204.5,
+        -50.91
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3352"
+    },
+    "Highstone Loch": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -140.93,
+        -114.48
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3357"
+    },
+    "Redtree Enclave": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -161.36,
+        -22.77
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3359"
+    },
+    "Deathwisp Sink": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -76.05,
+        -216.54
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "0346"
+    },
+    "Deathwisp Bog": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -65.34,
+        -171.26
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "0347"
+    },
+    "Sunkenbough Woods": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        32.71,
+        -55.59
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0349"
+    },
+    "Black Monastery": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -73.76,
+        -191.85
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "0356"
+    },
+    "Sunkenbough Spring": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        21.73,
+        -36.54
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "0358"
+    },
+    "Rivercopse Crossing": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        25.49,
+        -87.11
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "1318"
+    },
+    "Driftwood Vale": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -97.58,
+        -214.39
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "1321"
+    },
+    "Hightree Borderlands": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        57.56,
+        -47.8
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "1333"
+    },
+    "Rivercopse Curve": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        36.56,
+        -75.02
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "1346"
+    },
+    "Driftwood Hollow": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -91.29,
+        -199.76
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "1348"
+    },
+    "Rivercopse Path": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        7.85,
+        -76.58
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "1349"
+    },
+    "Darkbough Snag": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        35.99,
+        -160.44
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "1358"
+    },
+    "Rivercopse Fount": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        39.39,
+        -103.45
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "1359"
+    },
+    "Sunfang Ravine": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -16.83,
+        -91.36
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "2310"
+    },
+    "Sunfang Approach": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -37.05,
+        -75.24
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "2330"
+    },
+    "Parchsand Cliffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -112.71,
+        -126.15
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "2331"
+    },
+    "Sunfang Cliffs": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -52.68,
+        -132.87
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "2343"
+    },
+    "Sunfang Wasteland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -29.49,
+        -116.46
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "2344"
+    },
+    "Wailing Bulwark": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        2.62,
+        -104.16
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "2356"
+    },
+    "Sunfang Dawn": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -61.58,
+        -87.18
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "2357"
+    },
+    "Parchsand Drought": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -108.69,
+        -109.55
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "2359"
+    },
+    "Murdergulch Cross": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -78.63,
+        -243.95
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3306"
+    },
+    "Murdergulch Gap": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -52.89,
+        -219.91
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3307"
+    },
+    "Razorrock Passage": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -88.05,
+        -176.88
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3308"
+    },
+    "Razorrock Valley": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -89.02,
+        -123.25
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3310"
+    },
+    "Highstone Meadow": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -128.98,
+        -156.55
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3311"
+    },
+    "Battlebrae Plain": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -92.98,
+        -86.9
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3312"
+    },
+    "Battlebrae Lake": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -64.91,
+        -60.53
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3313"
+    },
+    "Stonemouth Northbluff": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        49.99,
+        24.82
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3314"
+    },
+    "Thunderrock Rapids": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        62.97,
+        -77.17
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3329"
+    },
+    "Razorrock Ravine": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -50.2,
+        -103.94
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3330"
+    },
+    "Razorrock Edge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -96.67,
+        -151.75
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3332"
+    },
+    "Stonemouth Bay": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        32.05,
+        6.17
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "3335"
+    },
+    "Thunderrock Ascent": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        31.25,
+        -130.11
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3340"
+    },
+    "Thunderrock Upland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        63.07,
+        -95.46
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3341"
+    },
+    "Murdergulch Trail": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -87.96,
+        -230.94
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "3342"
+    },
+    "Razorrock Chasm": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -78.63,
+        -136.75
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3343"
+    },
+    "Razorrock Verge": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -113.21,
+        -162.42
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3344"
+    },
+    "Razorrock Bank": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -75.38,
+        -110.03
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3345"
+    },
+    "Highstone Plateau": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -159.81,
+        -161.5
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "3347"
+    },
+    "Battlebrae Grassland": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -73.54,
+        -73.11
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3348"
+    },
+    "Murdergulch Divide": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -63.57,
+        -238.93
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "3354"
+    },
+    "Murdergulch Ravine": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -47.94,
+        -197.57
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3355"
+    },
+    "Razorrock Gulch": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -59.82,
+        -113.7
+      ],
+      "type_raw": "OPENPVP_BLACK_6",
+      "cid": "3356"
+    },
+    "Firesink Caldera": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        40.64,
+        -34.68
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4333"
+    },
+    "Whitecliff Peak": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        74.53,
+        26.73
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4334"
+    },
+    "Firesink Trench": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        32.99,
+        -24.46
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "4349"
+    },
+    "Whitecliff Expanse": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        88.03,
+        35.57
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "4350"
+    },
+    "Avalanche Incline": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -113.52,
+        -185.56
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "4358"
+    },
+    "Longfen Arms": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -150.54,
+        -32.31
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "0336"
+    },
+    "Thirstwater Steppe": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        62.37,
+        7.21
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2311"
+    },
+    "Dryvein Riverbed": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -25.03,
+        -26.73
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "2313"
+    },
+    "Thirstwater Waste": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        64.13,
+        -15.63
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2329"
+    },
+    "Dryvein Steppe": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        2.83,
+        -18.81
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "2332"
+    },
+    "Dryvein End": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -20.72,
+        -51.27
+      ],
+      "type_raw": "OPENPVP_BLACK_5",
+      "cid": "2345"
+    },
+    "Thirstwater Gully": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        52.54,
+        -6.01
+      ],
+      "type_raw": "OPENPVP_BLACK_2",
+      "cid": "2346"
+    },
+    "Dryvein Confluence": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -39.53,
+        -46.17
+      ],
+      "type_raw": "OPENPVP_BLACK_4",
+      "cid": "2347"
+    },
+    "Daemonium Keep": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        15.77,
+        -6.58
+      ],
+      "type_raw": "OPENPVP_BLACK_3",
+      "cid": "2360"
+    },
+    "Arthur's Rest": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -91.78,
+        -65.62
+      ],
+      "type_raw": "PLAYERCITY_BLACK_REST",
+      "cid": "4300"
+    },
+    "Merlyn's Rest": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        119.23,
+        -95.41
+      ],
+      "type_raw": "PLAYERCITY_BLACK_REST",
+      "cid": "1012"
+    },
+    "Morgana's Rest": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -4.73,
+        -261.14
+      ],
+      "type_raw": "PLAYERCITY_BLACK_REST",
+      "cid": "0008"
+    },
+    "CrystalRealmDebug": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "CrystalRealmDebug"
+    },
+    "Champions' Realm": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "ChampionsRealmLive"
+    },
+    "VegAnimTest": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "VegAnimTest"
+    },
+    "Murky Fen": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -22.17,
+        144.65
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0215"
+    },
+    "Fog Fen": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -67.67,
+        187.23
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "0216"
+    },
+    "Drownhorse Basin": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -1.44,
+        159.27
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0217"
+    },
+    "Slithertail Marsh": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -28.9,
+        225.19
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0218"
+    },
+    "Wanderlure Basin": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -41.65,
+        232.99
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0219"
+    },
+    "Falsestep Marsh": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -53.34,
+        201.41
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "0220"
+    },
+    "Darkground Swamp": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        5.47,
+        222.22
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "0221"
+    },
+    "Anklesnag Mire": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        25.84,
+        231.2
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "0222"
+    },
+    "Dusktree Swamp": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -6.57,
+        229.14
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "0223"
+    },
+    "Flynsdell": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        139.14,
+        287.43
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1216"
+    },
+    "Pinecopse": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        104.02,
+        377.52
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "1217"
+    },
+    "Deeproot Wood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        87.92,
+        317.84
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1218"
+    },
+    "Aspenwood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        123.47,
+        274.72
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1220"
+    },
+    "Spindlewood": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        100.53,
+        350.18
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1221"
+    },
+    "Owlsong Glen": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        96.14,
+        266.92
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "1222"
+    },
+    "Nightbloom Forest": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        72.12,
+        276.42
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "1223"
+    },
+    "Dryfield Meadow": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        129.34,
+        359.9
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2216"
+    },
+    "Sandgust Cleft": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        64.1,
+        400.06
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "2217"
+    },
+    "Longshadow Plain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        59.91,
+        365.93
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2218"
+    },
+    "Flatriver Trough": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        2.31,
+        344.22
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2219"
+    },
+    "Redstone Plain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -13.1,
+        350.25
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2220"
+    },
+    "Flimmerair Steppe": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        33.26,
+        309.01
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "2221"
+    },
+    "Goldshimmer Plain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        84.64,
+        337.64
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "2222"
+    },
+    "Kilmar Tor": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -24.26,
+        363.25
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "3216"
+    },
+    "Carns Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -19.41,
+        331.68
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3217"
+    },
+    "Brons Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -39.73,
+        356.57
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3218"
+    },
+    "Felniks Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -31.59,
+        343.17
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3219"
+    },
+    "Adrens Hill": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -34.31,
+        307.39
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "3220"
+    },
+    "Garrow Fell": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -12.73,
+        302.5
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "3221"
+    },
+    "Broken Fell": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -9.74,
+        319.95
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "3222"
+    },
+    "Pen Fenair": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        18.68,
+        148.55
+      ],
+      "type_raw": "SAFEAREA",
+      "cid": "4217"
+    },
+    "Cairn Drain": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        88.36,
+        251.79
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4218"
+    },
+    "Caulder Fissure": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        36.7,
+        166.95
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4219"
+    },
+    "Cairn Cloch": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        18.92,
+        176.8
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "4220"
+    },
+    "Creag Dhor": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        46.98,
+        232.16
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "4221"
+    },
+    "Creag Meagir": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        41.97,
+        245.85
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "4222"
+    },
+    "Domhain Chasm": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        51.19,
+        261.74
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "4223"
+    },
+    "PSG-H-0001": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "PSG-H-0001"
+    },
+    "PSG-H-0002": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "PSG-H-0002"
+    },
+    "PSG-0002": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "PSG-0002"
+    },
+    "DNG-UND-01-MAIN-06": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-MAIN-06"
+    },
+    "DNG-UND-01-SUB-06": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-SUB-06"
+    },
+    "LEGACY-KEEPER-01": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "LEGACY-KEEPER-01"
+    },
+    "LEGACY-KEEPER-SOLO-01": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "LEGACY-KEEPER-SOLO-01"
+    },
+    "LEGACY-UNDEAD-01": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "LEGACY-UNDEAD-01"
+    },
+    "LEGACY-UNDEAD-02": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "LEGACY-UNDEAD-02"
+    },
+    "Thetford Portal": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -125.29,
+        -337.02
+      ],
+      "type_raw": "PLAYERCITY_BLACK_PORTALCITY_NOFURNITURE",
+      "cid": "0301"
+    },
+    "Lymhurst Portal": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        111.09,
+        -29.77
+      ],
+      "type_raw": "PLAYERCITY_BLACK_PORTALCITY_NOFURNITURE",
+      "cid": "1301"
+    },
+    "Bridgewatch Portal": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -75.26,
+        32.88
+      ],
+      "type_raw": "PLAYERCITY_BLACK_PORTALCITY_NOFURNITURE",
+      "cid": "2301"
+    },
+    "Martlock Portal": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        -220.31,
+        -132.55
+      ],
+      "type_raw": "PLAYERCITY_BLACK_PORTALCITY_NOFURNITURE",
+      "cid": "3301"
+    },
+    "Fort Sterling Portal": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        109.22,
+        -271.68
+      ],
+      "type_raw": "PLAYERCITY_BLACK_PORTALCITY_NOFURNITURE",
+      "cid": "4301"
+    },
+    "0302": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "0302"
+    },
+    "0303": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "0303"
+    },
+    "0304": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "0304"
+    },
+    "1302": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "1302"
+    },
+    "1303": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "1303"
+    },
+    "1304": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "1304"
+    },
+    "2302": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "2302"
+    },
+    "2303": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "2303"
+    },
+    "2304": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "2304"
+    },
+    "3302": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "3302"
+    },
+    "3303": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "3303"
+    },
+    "3304": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "3304"
+    },
+    "4302": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "4302"
+    },
+    "4303": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "4303"
+    },
+    "4304": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "4304"
+    },
+    "Brecilien": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_BLACK",
+      "cid": "5000"
+    },
+    "Brecilien Bank": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_BLACK_NOFURNITURE",
+      "cid": "5002"
+    },
+    "Brecilien Market": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_BLACK_NOFURNITURE",
+      "cid": "5003"
+    },
+    "Brecilien Weald": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "5100"
+    },
+    "Brecilien Copse": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "5101"
+    },
+    "Brecilien Grove": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "5102"
+    },
+    "Brecilien Thicket": {
+      "color": "red",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "OPENPVP_RED",
+      "cid": "5103"
+    },
+    "3010": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "3010"
+    },
+    "3012-HALL-02": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "3012-HALL-02"
+    },
+    "DNG-UND-01-MAIN-028": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-MAIN-028"
+    },
+    "DNG-UND-01-SUB-028": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-SUB-028"
+    },
+    "DNG-UND-01-MAIN-006": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-MAIN-006"
+    },
+    "DNG-UND-01-SUB-006": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-SUB-006"
+    },
+    "DNG-UND-01-MAIN-009": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-MAIN-009"
+    },
+    "DNG-UND-01-SUB-009": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-SUB-009"
+    },
+    "DNG-UND-01-MAIN-008": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-MAIN-008"
+    },
+    "DNG-UND-01-SUB-008": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-SUB-008"
+    },
+    "DNG-UND-01-MAIN-005": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-MAIN-005"
+    },
+    "DNG-UND-01-SUB-005": {
+      "color": "blue",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "STARTAREA",
+      "cid": "DNG-UND-01-SUB-005"
+    },
+    "Smuggler's Den": {
+      "color": "black",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "PLAYERCITY_BLACK_SMUGGLERSDEN",
+      "cid": "BLACKBANK-2310"
+    },
+    "1900-DynamicTest": {
+      "color": "yellow",
+      "tier": 0,
+      "biome": "",
+      "pos": [
+        0.0,
+        -0.0
+      ],
+      "type_raw": "OPENPVP_YELLOW",
+      "cid": "1900-DynamicTest"
+    }
+  },
+  "connections": [
+    [
+      "Adrens Hill",
+      "Blackthorn Quarry"
+    ],
+    [
+      "Adrens Hill",
+      "Carns Hill"
+    ],
+    [
+      "Adrens Hill",
+      "Croker Hill"
+    ],
+    [
+      "Adrens Hill",
+      "Garrow Fell"
+    ],
+    [
+      "Anklesnag Mire",
+      "Camlann"
+    ],
+    [
+      "Anklesnag Mire",
+      "Creag Meagir"
+    ],
+    [
+      "Anklesnag Mire",
+      "Darkground Swamp"
+    ],
+    [
+      "Anklesnag Mire",
+      "Spectral Sump"
+    ],
+    [
+      "Arthur's Rest",
+      "Battlebrae Grassland"
+    ],
+    [
+      "Arthur's Rest",
+      "Battlebrae Meadow"
+    ],
+    [
+      "Arthur's Rest",
+      "Battlebrae Peaks"
+    ],
+    [
+      "Arthur's Rest",
+      "Whitewall Pass"
+    ],
+    [
+      "Aspenwood",
+      "Flynsdell"
+    ],
+    [
+      "Aspenwood",
+      "Inis Mon"
+    ],
+    [
+      "Aspenwood",
+      "Oakcopse"
+    ],
+    [
+      "Aspenwood",
+      "Yew Wood"
+    ],
+    [
+      "Astolat",
+      "Flimmerair Steppe"
+    ],
+    [
+      "Astolat",
+      "Kindlegrass Steppe"
+    ],
+    [
+      "Astolat",
+      "Shiftshadow Expanse"
+    ],
+    [
+      "Astolat",
+      "Slowtree Plain"
+    ],
+    [
+      "Avalanche Incline",
+      "Avalanche Ravine"
+    ],
+    [
+      "Avalanche Incline",
+      "Driftwood Vale"
+    ],
+    [
+      "Avalanche Incline",
+      "Razorrock Verge"
+    ],
+    [
+      "Avalanche Ravine",
+      "Driftwood Glen"
+    ],
+    [
+      "Avalanche Ravine",
+      "Unhallowed Cloister"
+    ],
+    [
+      "Bank of Bridgewatch",
+      "Bridgewatch"
+    ],
+    [
+      "Bank of Bridgewatch",
+      "Bridgewatch Market"
+    ],
+    [
+      "Bank of Caerleon",
+      "Caerleon"
+    ],
+    [
+      "Bank of Caerleon",
+      "Caerleon Market"
+    ],
+    [
+      "Bank of Fort Sterling",
+      "Fort Sterling"
+    ],
+    [
+      "Bank of Fort Sterling",
+      "Fort Sterling Market"
+    ],
+    [
+      "Bank of Lymhurst",
+      "Lymhurst"
+    ],
+    [
+      "Bank of Lymhurst",
+      "Lymhurst Market"
+    ],
+    [
+      "Bank of Martlock",
+      "Martlock"
+    ],
+    [
+      "Bank of Martlock",
+      "Martlock Market"
+    ],
+    [
+      "Bank of Thetford",
+      "Thetford"
+    ],
+    [
+      "Bank of Thetford",
+      "Thetford Market"
+    ],
+    [
+      "Battlebrae Flatland",
+      "Battlebrae Meadow"
+    ],
+    [
+      "Battlebrae Flatland",
+      "Deathreach Priory"
+    ],
+    [
+      "Battlebrae Flatland",
+      "Highstone Loch"
+    ],
+    [
+      "Battlebrae Grassland",
+      "Battlebrae Lake"
+    ],
+    [
+      "Battlebrae Grassland",
+      "Battlebrae Plain"
+    ],
+    [
+      "Battlebrae Grassland",
+      "Sunfang Dawn"
+    ],
+    [
+      "Battlebrae Lake",
+      "Battlebrae Peaks"
+    ],
+    [
+      "Battlebrae Meadow",
+      "Battlebrae Plain"
+    ],
+    [
+      "Battlebrae Peaks",
+      "Dryvein Cross"
+    ],
+    [
+      "Battlebrae Peaks",
+      "Whitewall Ridge"
+    ],
+    [
+      "Battlebrae Plain",
+      "Parchsand Drought"
+    ],
+    [
+      "Bellever Tor",
+      "Brons Hill"
+    ],
+    [
+      "Bellever Tor",
+      "Croker Hill"
+    ],
+    [
+      "Bellever Tor",
+      "Haldon Tor"
+    ],
+    [
+      "Bellever Tor",
+      "Saddle Tor"
+    ],
+    [
+      "Birchcopse",
+      "Flynsdell"
+    ],
+    [
+      "Birchcopse",
+      "Lymhurst"
+    ],
+    [
+      "Birchcopse",
+      "Redlake"
+    ],
+    [
+      "Birken Fell",
+      "Caerleon"
+    ],
+    [
+      "Birken Fell",
+      "Malag Crevasse"
+    ],
+    [
+      "Birken Fell",
+      "Mardale"
+    ],
+    [
+      "Black Monastery",
+      "Deathwisp Bog"
+    ],
+    [
+      "Black Monastery",
+      "Deathwisp Sink"
+    ],
+    [
+      "Black Monastery",
+      "Murdergulch Gap"
+    ],
+    [
+      "Blackthorn Quarry",
+      "Gutras Hill"
+    ],
+    [
+      "Blackthorn Quarry",
+      "Haldon Tor"
+    ],
+    [
+      "Blackthorn Quarry",
+      "Martlock"
+    ],
+    [
+      "Bleachskull Desert",
+      "Bleachskull Steppe"
+    ],
+    [
+      "Bleachskull Desert",
+      "Highstone Plateau"
+    ],
+    [
+      "Bleachskull Desert",
+      "Smuggler's Den"
+    ],
+    [
+      "Bleachskull Desert",
+      "Windgrass Fields"
+    ],
+    [
+      "Bleachskull Steppe",
+      "Windgrass Border"
+    ],
+    [
+      "Bonepool Marsh",
+      "Curlew Fen"
+    ],
+    [
+      "Bonepool Marsh",
+      "Dewleaf Fen"
+    ],
+    [
+      "Bonepool Marsh",
+      "Lewsdon Hill"
+    ],
+    [
+      "Bonepool Marsh",
+      "Wispwhisper Marsh"
+    ],
+    [
+      "Bowscale Fell",
+      "Stumprot Swamp"
+    ],
+    [
+      "Bowscale Fell",
+      "Wanderlure Basin"
+    ],
+    [
+      "Braemore Lowland",
+      "Braemore Upland"
+    ],
+    [
+      "Braemore Lowland",
+      "Sandmount Strand"
+    ],
+    [
+      "Braemore Lowland",
+      "Unhallowed Cloister"
+    ],
+    [
+      "Braemore Upland",
+      "Sandmount Ascent"
+    ],
+    [
+      "Brambleshore Hinterlands",
+      "Everwinter Reach"
+    ],
+    [
+      "Brambleshore Hinterlands",
+      "Scuttlesink Marsh"
+    ],
+    [
+      "Brambleshore Hinterlands",
+      "Scuttlesink Mouth"
+    ],
+    [
+      "Brecilien",
+      "Brecilien Bank"
+    ],
+    [
+      "Brecilien",
+      "Brecilien Copse"
+    ],
+    [
+      "Brecilien",
+      "Brecilien Grove"
+    ],
+    [
+      "Brecilien",
+      "Brecilien Market"
+    ],
+    [
+      "Brecilien",
+      "Brecilien Thicket"
+    ],
+    [
+      "Brecilien",
+      "Brecilien Weald"
+    ],
+    [
+      "Brecilien Bank",
+      "Brecilien Market"
+    ],
+    [
+      "Brecilien Copse",
+      "Brecilien Grove"
+    ],
+    [
+      "Brecilien Copse",
+      "Brecilien Weald"
+    ],
+    [
+      "Brecilien Grove",
+      "Brecilien Thicket"
+    ],
+    [
+      "Brecilien Thicket",
+      "Brecilien Weald"
+    ],
+    [
+      "Brent Knoll",
+      "Haytor"
+    ],
+    [
+      "Brent Knoll",
+      "Highland Cross"
+    ],
+    [
+      "Brent Knoll",
+      "Mase Knoll"
+    ],
+    [
+      "Brent Knoll",
+      "Slimehag"
+    ],
+    [
+      "Bridgewatch",
+      "Bridgewatch Market"
+    ],
+    [
+      "Bridgewatch",
+      "Fractured Ground"
+    ],
+    [
+      "Bridgewatch",
+      "Lazygrass Plain"
+    ],
+    [
+      "Bridgewatch",
+      "Longmarch Meadow"
+    ],
+    [
+      "Bridgewatch",
+      "Smoothfloor Cleft"
+    ],
+    [
+      "Bridgewatch Portal",
+      "Farshore Bay"
+    ],
+    [
+      "Bridgewatch Portal",
+      "Sandrift Coast"
+    ],
+    [
+      "Bridgewatch Portal",
+      "Sandrift Prairie"
+    ],
+    [
+      "Bridgewatch Portal",
+      "Sandrift Shore"
+    ],
+    [
+      "Bridgewatch Portal",
+      "Sandrift Steppe"
+    ],
+    [
+      "Broken Fell",
+      "Carns Hill"
+    ],
+    [
+      "Broken Fell",
+      "Garrow Fell"
+    ],
+    [
+      "Broken Fell",
+      "Roastcorpse Steppe"
+    ],
+    [
+      "Broken Fell",
+      "Shiftshadow Expanse"
+    ],
+    [
+      "Brons Hill",
+      "Felniks Hill"
+    ],
+    [
+      "Brons Hill",
+      "Kilmar Tor"
+    ],
+    [
+      "Brons Hill",
+      "Saddle Tor"
+    ],
+    [
+      "Bryn Gorge",
+      "Crose Gorge"
+    ],
+    [
+      "Bryn Gorge",
+      "Mountain Cross"
+    ],
+    [
+      "Bryn Gorge",
+      "Pen Gent"
+    ],
+    [
+      "Bryn Gorge",
+      "Pen Uchaf"
+    ],
+    [
+      "Caerleon",
+      "Caerleon Market"
+    ],
+    [
+      "Caerleon",
+      "Creag Morr"
+    ],
+    [
+      "Caerleon",
+      "Roastcorpse Steppe"
+    ],
+    [
+      "Caerleon",
+      "Wyre Forest"
+    ],
+    [
+      "Cairn Camain",
+      "Cairn Fidair"
+    ],
+    [
+      "Cairn Camain",
+      "Fort Sterling"
+    ],
+    [
+      "Cairn Camain",
+      "Tharcal Fissure"
+    ],
+    [
+      "Cairn Cloch",
+      "Cairn Gorm"
+    ],
+    [
+      "Cairn Cloch",
+      "Caulder Fissure"
+    ],
+    [
+      "Cairn Cloch",
+      "Drownhorse Basin"
+    ],
+    [
+      "Cairn Cloch",
+      "Sleetwater Basin"
+    ],
+    [
+      "Cairn Darg",
+      "Cairn Drain"
+    ],
+    [
+      "Cairn Darg",
+      "Inis Mon"
+    ],
+    [
+      "Cairn Darg",
+      "Pen Kerrig"
+    ],
+    [
+      "Cairn Darg",
+      "Tharcal Fissure"
+    ],
+    [
+      "Cairn Drain",
+      "Nightbloom Forest"
+    ],
+    [
+      "Cairn Drain",
+      "Owlsong Glen"
+    ],
+    [
+      "Cairn Fidair",
+      "Cairn Gorm"
+    ],
+    [
+      "Cairn Fidair",
+      "Pen Gent"
+    ],
+    [
+      "Cairn Fidair",
+      "Spectral Sump"
+    ],
+    [
+      "Cairn Glascore",
+      "Cairn Gorm"
+    ],
+    [
+      "Cairn Glascore",
+      "Darkground Swamp"
+    ],
+    [
+      "Cairn Glascore",
+      "Sleetwater Basin"
+    ],
+    [
+      "Cairn Glascore",
+      "Spectral Sump"
+    ],
+    [
+      "Cairn Gorm",
+      "Pen Garn"
+    ],
+    [
+      "Camlann",
+      "Dusktree Swamp"
+    ],
+    [
+      "Camlann",
+      "Malag Crevasse"
+    ],
+    [
+      "Camlann",
+      "Stumprot Swamp"
+    ],
+    [
+      "Carns Hill",
+      "Felniks Hill"
+    ],
+    [
+      "Carns Hill",
+      "Flatriver Trough"
+    ],
+    [
+      "Caulder Fissure",
+      "Pen Fenair"
+    ],
+    [
+      "Caulder Fissure",
+      "Pen Garn"
+    ],
+    [
+      "Cedarcopse",
+      "Larchroad"
+    ],
+    [
+      "Cedarcopse",
+      "Pen Kerrig"
+    ],
+    [
+      "Cedarcopse",
+      "Russerdell"
+    ],
+    [
+      "Chillhag",
+      "Gwan Gorge"
+    ],
+    [
+      "Chillhag",
+      "Stinkhag"
+    ],
+    [
+      "Chillhag",
+      "Swamp Cross"
+    ],
+    [
+      "Chillhag",
+      "Thetford"
+    ],
+    [
+      "Citadel of Ash",
+      "Drownfield Course"
+    ],
+    [
+      "Citadel of Ash",
+      "Drownfield Mire"
+    ],
+    [
+      "Citadel of Ash",
+      "Everwinter Incline"
+    ],
+    [
+      "Cracked Earth",
+      "Dryfield Meadow"
+    ],
+    [
+      "Cracked Earth",
+      "Ferndell"
+    ],
+    [
+      "Cracked Earth",
+      "Forest Cross"
+    ],
+    [
+      "Cracked Earth",
+      "Stagbourne"
+    ],
+    [
+      "Creag Dhor",
+      "Creag Garr"
+    ],
+    [
+      "Creag Dhor",
+      "Spectral Sump"
+    ],
+    [
+      "Creag Garr",
+      "Domhain Chasm"
+    ],
+    [
+      "Creag Garr",
+      "Tharcal Fissure"
+    ],
+    [
+      "Creag Meagir",
+      "Domhain Chasm"
+    ],
+    [
+      "Creag Meagir",
+      "Malag Crevasse"
+    ],
+    [
+      "Creag Morr",
+      "Domhain Chasm"
+    ],
+    [
+      "Creag Morr",
+      "Longtimber Glen"
+    ],
+    [
+      "Creag Morr",
+      "Malag Crevasse"
+    ],
+    [
+      "Croker Hill",
+      "Felniks Hill"
+    ],
+    [
+      "Croker Hill",
+      "Haldon Tor"
+    ],
+    [
+      "Crose Gorge",
+      "Fort Sterling"
+    ],
+    [
+      "Crose Gorge",
+      "Larchroad"
+    ],
+    [
+      "Crose Gorge",
+      "Mountain Cross"
+    ],
+    [
+      "Curlew Fen",
+      "Dewleaf Fen"
+    ],
+    [
+      "Curlew Fen",
+      "Haytor"
+    ],
+    [
+      "Curlew Fen",
+      "Slimehag"
+    ],
+    [
+      "Daemonium Keep",
+      "Dryvein Steppe"
+    ],
+    [
+      "Daemonium Keep",
+      "Frostspring Volcano"
+    ],
+    [
+      "Darkbough Snag",
+      "Iceburn Firth"
+    ],
+    [
+      "Darkbough Snag",
+      "Thunderrock Ascent"
+    ],
+    [
+      "Darkground Swamp",
+      "Dusktree Swamp"
+    ],
+    [
+      "Deadpine Forest",
+      "Drownfield Sink"
+    ],
+    [
+      "Deadpine Forest",
+      "Glacierfall Canyon"
+    ],
+    [
+      "Deadpine Forest",
+      "Glacierfall Fissure"
+    ],
+    [
+      "Deadpine Forest",
+      "Smuggler's Den"
+    ],
+    [
+      "Deadvein Gully",
+      "Roastcorpse Steppe"
+    ],
+    [
+      "Deadvein Gully",
+      "Shiftshadow Expanse"
+    ],
+    [
+      "Deadvein Gully",
+      "Wyre Forest"
+    ],
+    [
+      "Deathreach Priory",
+      "Gravemound Knoll"
+    ],
+    [
+      "Deathreach Priory",
+      "Longfen Veins"
+    ],
+    [
+      "Deathwisp Bog",
+      "Murdergulch Ravine"
+    ],
+    [
+      "Deathwisp Bog",
+      "Razorrock Chasm"
+    ],
+    [
+      "Deathwisp Sink",
+      "Driftwood Hollow"
+    ],
+    [
+      "Deathwisp Sink",
+      "Murdergulch Divide"
+    ],
+    [
+      "Deeproot Wood",
+      "Goldshimmer Plain"
+    ],
+    [
+      "Deeproot Wood",
+      "Hornbeam Wood"
+    ],
+    [
+      "Deeproot Wood",
+      "Willow Wood"
+    ],
+    [
+      "Deepwood Copse",
+      "Eldersleep"
+    ],
+    [
+      "Deepwood Copse",
+      "Glacierfall Valley"
+    ],
+    [
+      "Deepwood Copse",
+      "Iceburn Peaks"
+    ],
+    [
+      "Deepwood Copse",
+      "Smuggler's Den"
+    ],
+    [
+      "Deepwood Dell",
+      "Deepwood Pines"
+    ],
+    [
+      "Deepwood Dell",
+      "Whitebank Cross"
+    ],
+    [
+      "Deepwood Dell",
+      "Whitebank Shore"
+    ],
+    [
+      "Deepwood Gorge",
+      "Glacierfall Passage"
+    ],
+    [
+      "Deepwood Gorge",
+      "Iceburn Cliffs"
+    ],
+    [
+      "Deepwood Gorge",
+      "Whitebank Cross"
+    ],
+    [
+      "Deepwood Pines",
+      "Floatshoal Fissure"
+    ],
+    [
+      "Dewleaf Fen",
+      "Fog Fen"
+    ],
+    [
+      "Domhain Chasm",
+      "Nightbloom Forest"
+    ],
+    [
+      "Driftwood Glen",
+      "Driftwood Vale"
+    ],
+    [
+      "Driftwood Glen",
+      "Willowshade Icemarsh"
+    ],
+    [
+      "Driftwood Glen",
+      "Willowshade Lake"
+    ],
+    [
+      "Driftwood Hollow",
+      "Driftwood Vale"
+    ],
+    [
+      "Driftwood Hollow",
+      "Razorrock Passage"
+    ],
+    [
+      "Driftwood Hollow",
+      "Smuggler's Den"
+    ],
+    [
+      "Driftwood Vale",
+      "Murdergulch Trail"
+    ],
+    [
+      "Drownfield Course",
+      "Drownfield Wetland"
+    ],
+    [
+      "Drownfield Fen",
+      "Drownfield Quag"
+    ],
+    [
+      "Drownfield Fen",
+      "Drownfield Rut"
+    ],
+    [
+      "Drownfield Fen",
+      "Glacierfall Pass"
+    ],
+    [
+      "Drownfield Fen",
+      "Morgana's Rest"
+    ],
+    [
+      "Drownfield Mire",
+      "Drownfield Slough"
+    ],
+    [
+      "Drownfield Mire",
+      "Drownfield Wetland"
+    ],
+    [
+      "Drownfield Mire",
+      "Whitepeak Tundra"
+    ],
+    [
+      "Drownfield Quag",
+      "Whitepeak Ascent"
+    ],
+    [
+      "Drownfield Quag",
+      "Whitepeak Tundra"
+    ],
+    [
+      "Drownfield Rut",
+      "Drownfield Sink"
+    ],
+    [
+      "Drownfield Rut",
+      "Murdergulch Divide"
+    ],
+    [
+      "Drownfield Slough",
+      "Morgana's Rest"
+    ],
+    [
+      "Drownfield Slough",
+      "Skysand Ridge"
+    ],
+    [
+      "Drownfield Wetland",
+      "Timberscar Copse"
+    ],
+    [
+      "Drownfield Wetland",
+      "Timberscar Dell"
+    ],
+    [
+      "Drownhorse Basin",
+      "Murky Fen"
+    ],
+    [
+      "Drownhorse Basin",
+      "Pen Fenair"
+    ],
+    [
+      "Drownhorse Basin",
+      "Windripple Fen"
+    ],
+    [
+      "Drybasin Oasis",
+      "Drybasin Riverbed"
+    ],
+    [
+      "Drybasin Oasis",
+      "Giantweald Edge"
+    ],
+    [
+      "Drybasin Oasis",
+      "Giantweald Woods"
+    ],
+    [
+      "Drybasin Riverbed",
+      "Smuggler's Den"
+    ],
+    [
+      "Drybasin Riverbed",
+      "Wetgrave Marsh"
+    ],
+    [
+      "Dryfield Meadow",
+      "Pinecopse"
+    ],
+    [
+      "Dryfield Meadow",
+      "Steelhide Meadow"
+    ],
+    [
+      "Dryfield Meadow",
+      "Willow Wood"
+    ],
+    [
+      "Drytop Pillars",
+      "Drytop Riverbed"
+    ],
+    [
+      "Drytop Pillars",
+      "Timberscar Copse"
+    ],
+    [
+      "Drytop Riverbed",
+      "Widemoor Hills"
+    ],
+    [
+      "Dryvein Confluence",
+      "Dryvein Cross"
+    ],
+    [
+      "Dryvein Confluence",
+      "Dryvein End"
+    ],
+    [
+      "Dryvein Confluence",
+      "Dryvein Riverbed"
+    ],
+    [
+      "Dryvein Confluence",
+      "Smuggler's Den"
+    ],
+    [
+      "Dryvein Cross",
+      "Dryvein Oasis"
+    ],
+    [
+      "Dryvein Cross",
+      "Springsump Wetland"
+    ],
+    [
+      "Dryvein End",
+      "Sunfang Approach"
+    ],
+    [
+      "Dryvein End",
+      "Sunkenbough Spring"
+    ],
+    [
+      "Dryvein Oasis",
+      "Dryvein Plain"
+    ],
+    [
+      "Dryvein Oasis",
+      "Stonelake Hillock"
+    ],
+    [
+      "Dryvein Plain",
+      "Sandrift Dunes"
+    ],
+    [
+      "Dryvein Plain",
+      "Springsump Melt"
+    ],
+    [
+      "Dryvein Riverbed",
+      "Dryvein Steppe"
+    ],
+    [
+      "Dryvein Riverbed",
+      "Springsump Wetland"
+    ],
+    [
+      "Dryvein Steppe",
+      "Firesink Trench"
+    ],
+    [
+      "Drywater Meadow",
+      "Longmarch Meadow"
+    ],
+    [
+      "Drywater Meadow",
+      "Parchthroat Plain"
+    ],
+    [
+      "Drywater Meadow",
+      "Sandgust Cleft"
+    ],
+    [
+      "Drywater Meadow",
+      "Snapshaft Trough"
+    ],
+    [
+      "Dusklight Fen",
+      "Falsestep Marsh"
+    ],
+    [
+      "Dusklight Fen",
+      "Stinkhag"
+    ],
+    [
+      "Dusklight Fen",
+      "Thetford"
+    ],
+    [
+      "Dusktree Swamp",
+      "Nightcreak Marsh"
+    ],
+    [
+      "Eldersleep",
+      "Glacierfall Canyon"
+    ],
+    [
+      "Eldersleep",
+      "Glacierfall Fissure"
+    ],
+    [
+      "Eldon Hill",
+      "Gutras Hill"
+    ],
+    [
+      "Eldon Hill",
+      "Lewsdon Hill"
+    ],
+    [
+      "Eldon Hill",
+      "Martlock"
+    ],
+    [
+      "Everwinter Crossing",
+      "Everwinter Gorge"
+    ],
+    [
+      "Everwinter Crossing",
+      "Everwinter Plain"
+    ],
+    [
+      "Everwinter Crossing",
+      "Whitebank Ridge"
+    ],
+    [
+      "Everwinter Expanse",
+      "Everwinter Incline"
+    ],
+    [
+      "Everwinter Expanse",
+      "Everwinter Shores"
+    ],
+    [
+      "Everwinter Expanse",
+      "Shaleheath Steep"
+    ],
+    [
+      "Everwinter Gap",
+      "Everwinter Gorge"
+    ],
+    [
+      "Everwinter Gap",
+      "Meltwater Channel"
+    ],
+    [
+      "Everwinter Gap",
+      "Morgana's Rest"
+    ],
+    [
+      "Everwinter Gap",
+      "Skysand Ridge"
+    ],
+    [
+      "Everwinter Gorge",
+      "Meltwater Bog"
+    ],
+    [
+      "Everwinter Gorge",
+      "Skysand Plateau"
+    ],
+    [
+      "Everwinter Incline",
+      "Everwinter Peak"
+    ],
+    [
+      "Everwinter Incline",
+      "Skysand Plateau"
+    ],
+    [
+      "Everwinter Passage",
+      "Everwinter Peak"
+    ],
+    [
+      "Everwinter Passage",
+      "Everwinter Reach"
+    ],
+    [
+      "Everwinter Passage",
+      "Meltwater Sump"
+    ],
+    [
+      "Everwinter Peak",
+      "Smuggler's Den"
+    ],
+    [
+      "Everwinter Plain",
+      "Meltwater Sump"
+    ],
+    [
+      "Everwinter Plain",
+      "Skysand Plateau"
+    ],
+    [
+      "Everwinter Shores",
+      "Shaleheath Hills"
+    ],
+    [
+      "Eye of the Forest",
+      "Flammog Desolation"
+    ],
+    [
+      "Eye of the Forest",
+      "Giantweald Copse"
+    ],
+    [
+      "Eye of the Forest",
+      "Giantweald Woods"
+    ],
+    [
+      "Falsestep Marsh",
+      "Fog Fen"
+    ],
+    [
+      "Falsestep Marsh",
+      "Slithertail Marsh"
+    ],
+    [
+      "Falsestep Marsh",
+      "Wispwhisper Marsh"
+    ],
+    [
+      "Farshore Bay",
+      "Farshore Cape"
+    ],
+    [
+      "Farshore Bay",
+      "Stonelake Fields"
+    ],
+    [
+      "Farshore Cape",
+      "Farshore Lagoon"
+    ],
+    [
+      "Farshore Drylands",
+      "Farshore Esker"
+    ],
+    [
+      "Farshore Drylands",
+      "Longfen Arms"
+    ],
+    [
+      "Farshore Esker",
+      "Farshore Heath"
+    ],
+    [
+      "Farshore Esker",
+      "Longfen Marsh"
+    ],
+    [
+      "Farshore Esker",
+      "Whitewall Pass"
+    ],
+    [
+      "Farshore Heath",
+      "Smuggler's Den"
+    ],
+    [
+      "Farshore Heath",
+      "Stonelake Hillock"
+    ],
+    [
+      "Farshore Lagoon",
+      "Stonelake Fields"
+    ],
+    [
+      "Felniks Hill",
+      "Redstone Plain"
+    ],
+    [
+      "Ferndell",
+      "Lymhurst"
+    ],
+    [
+      "Ferndell",
+      "Willow Wood"
+    ],
+    [
+      "Firesink Caldera",
+      "Firesink Trench"
+    ],
+    [
+      "Firesink Caldera",
+      "Hightree Borderlands"
+    ],
+    [
+      "Firesink Caldera",
+      "Sunkenbough Woods"
+    ],
+    [
+      "Firesink Caldera",
+      "Thirstwater Waste"
+    ],
+    [
+      "Firesink Trench",
+      "Sunkenbough Spring"
+    ],
+    [
+      "Flammog Desolation",
+      "Flammog Valley"
+    ],
+    [
+      "Flammog Desolation",
+      "Runnelvein Slough"
+    ],
+    [
+      "Flammog Fork",
+      "Flammog Valley"
+    ],
+    [
+      "Flammog Fork",
+      "Rivercopse Fount"
+    ],
+    [
+      "Flammog Fork",
+      "Thunderrock Draw"
+    ],
+    [
+      "Flammog Valley",
+      "Giantweald Copse"
+    ],
+    [
+      "Flammog Valley",
+      "Runnelvein Sink"
+    ],
+    [
+      "Flatriver Trough",
+      "Redstone Plain"
+    ],
+    [
+      "Flatriver Trough",
+      "Shiftshadow Expanse"
+    ],
+    [
+      "Flatriver Trough",
+      "Slowtree Plain"
+    ],
+    [
+      "Flatrock Cliffs",
+      "Flatrock Plateau"
+    ],
+    [
+      "Flatrock Cliffs",
+      "Greenshore Bay"
+    ],
+    [
+      "Flatrock Cliffs",
+      "Wetgrave Marsh"
+    ],
+    [
+      "Flatrock Plateau",
+      "Giantweald Edge"
+    ],
+    [
+      "Flatrock Plateau",
+      "Greenshore Peninsula"
+    ],
+    [
+      "Flimmerair Steppe",
+      "Kindlegrass Steppe"
+    ],
+    [
+      "Flimmerair Steppe",
+      "Murkweald"
+    ],
+    [
+      "Floatshoal Bight",
+      "Floatshoal Fissure"
+    ],
+    [
+      "Floatshoal Bight",
+      "Frostpeak Ascent"
+    ],
+    [
+      "Floatshoal Bight",
+      "Timberslope Dell"
+    ],
+    [
+      "Floatshoal Fissure",
+      "Floatshoal Floe"
+    ],
+    [
+      "Floatshoal Fissure",
+      "Skylake Bridge"
+    ],
+    [
+      "Floatshoal Floe",
+      "Runnelvein Bog"
+    ],
+    [
+      "Floatshoal Floe",
+      "Skylake Hinterlands"
+    ],
+    [
+      "Floatshoal Floe",
+      "Smuggler's Den"
+    ],
+    [
+      "Flynsdell",
+      "Oakcopse"
+    ],
+    [
+      "Fog Fen",
+      "Stinkhag"
+    ],
+    [
+      "Forest Cross",
+      "Redlake"
+    ],
+    [
+      "Forest Cross",
+      "Stagbourne"
+    ],
+    [
+      "Forgotten Woods",
+      "The Cove"
+    ],
+    [
+      "Fort Sterling",
+      "Fort Sterling Market"
+    ],
+    [
+      "Fort Sterling",
+      "Mawar Gorge"
+    ],
+    [
+      "Fort Sterling",
+      "Pen Gent"
+    ],
+    [
+      "Fort Sterling Portal",
+      "Frostpeak Vista"
+    ],
+    [
+      "Fort Sterling Portal",
+      "Whitebank Cross"
+    ],
+    [
+      "Fort Sterling Portal",
+      "Whitebank Descent"
+    ],
+    [
+      "Fort Sterling Portal",
+      "Whitebank Shore"
+    ],
+    [
+      "Fort Sterling Portal",
+      "Whitebank Stream"
+    ],
+    [
+      "Fractured Ground",
+      "Prospector's Hope"
+    ],
+    [
+      "Fractured Ground",
+      "Steppe Cross"
+    ],
+    [
+      "Fractured Ground",
+      "Vixen Tor"
+    ],
+    [
+      "Frostbite Chasm",
+      "Frostbite Mountain"
+    ],
+    [
+      "Frostbite Chasm",
+      "Sandmount Esker"
+    ],
+    [
+      "Frostbite Chasm",
+      "Westweald Shore"
+    ],
+    [
+      "Frostbite Mountain",
+      "Westweald Thicket"
+    ],
+    [
+      "Frostbite Mountain",
+      "Windgrass Border"
+    ],
+    [
+      "Frostbite Mountain",
+      "Windgrass Gully"
+    ],
+    [
+      "Frostpeak Ascent",
+      "Frostpeak Vista"
+    ],
+    [
+      "Frostpeak Ascent",
+      "Whitebank Shore"
+    ],
+    [
+      "Frostseep Crevasse",
+      "Frostseep Ravine"
+    ],
+    [
+      "Frostseep Crevasse",
+      "Willowshade Mire"
+    ],
+    [
+      "Frostseep Ravine",
+      "Widemoor Fen"
+    ],
+    [
+      "Frostseep Ravine",
+      "Willowshade Icemarsh"
+    ],
+    [
+      "Frostspring Passage",
+      "Frostspring Volcano"
+    ],
+    [
+      "Frostspring Passage",
+      "Sandrift Expanse"
+    ],
+    [
+      "Frostspring Passage",
+      "Springsump Melt"
+    ],
+    [
+      "Frostspring Volcano",
+      "Smuggler's Den"
+    ],
+    [
+      "Frostspring Volcano",
+      "Sunstrand Shoal"
+    ],
+    [
+      "Garrow Fell",
+      "Runnel Sink"
+    ],
+    [
+      "Giantweald Copse",
+      "Giantweald Roots"
+    ],
+    [
+      "Giantweald Copse",
+      "Merlyn's Rest"
+    ],
+    [
+      "Giantweald Dale",
+      "Giantweald Edge"
+    ],
+    [
+      "Giantweald Dale",
+      "Giantweald Woods"
+    ],
+    [
+      "Giantweald Dale",
+      "Munten Fell"
+    ],
+    [
+      "Giantweald Dale",
+      "Munten Tundra"
+    ],
+    [
+      "Giantweald Glade",
+      "Giantweald Roots"
+    ],
+    [
+      "Giantweald Glade",
+      "Merlyn's Rest"
+    ],
+    [
+      "Giantweald Roots",
+      "Thunderrock Upland"
+    ],
+    [
+      "Giantweald Woods",
+      "Merlyn's Rest"
+    ],
+    [
+      "Glacierbreak Summit",
+      "Hightree Isle"
+    ],
+    [
+      "Glacierbreak Summit",
+      "Skullmarsh Lower"
+    ],
+    [
+      "Glacierfall Cross",
+      "Glacierfall Pass"
+    ],
+    [
+      "Glacierfall Cross",
+      "Glacierfall Valley"
+    ],
+    [
+      "Glacierfall Cross",
+      "Meltwater Channel"
+    ],
+    [
+      "Glacierfall Cross",
+      "Morgana's Rest"
+    ],
+    [
+      "Glacierfall Passage",
+      "Glacierfall Valley"
+    ],
+    [
+      "Goffers Knoll",
+      "Steppe Cross"
+    ],
+    [
+      "Goffers Knoll",
+      "Vixen Tor"
+    ],
+    [
+      "Goldshimmer Plain",
+      "Murkweald"
+    ],
+    [
+      "Goldshimmer Plain",
+      "Spindlewood"
+    ],
+    [
+      "Gravemound Brim",
+      "Gravemound Cliffs"
+    ],
+    [
+      "Gravemound Brim",
+      "Gravemound Slope"
+    ],
+    [
+      "Gravemound Cliffs",
+      "Gravemound Hills"
+    ],
+    [
+      "Gravemound Hills",
+      "Gravemound Slope"
+    ],
+    [
+      "Gravemound Hills",
+      "Longfen Arms"
+    ],
+    [
+      "Gravemound Knoll",
+      "Greenhollow Copse"
+    ],
+    [
+      "Gravemound Knoll",
+      "Longfen Marsh"
+    ],
+    [
+      "Gravemound Knoll",
+      "Smuggler's Den"
+    ],
+    [
+      "Gravemound Slope",
+      "Greenhollow Copse"
+    ],
+    [
+      "Greenhollow Copse",
+      "Greenhollow Vale"
+    ],
+    [
+      "Greenhollow Copse",
+      "Windgrass Terrace"
+    ],
+    [
+      "Greenhollow Vale",
+      "Highstone Grassland"
+    ],
+    [
+      "Greenhollow Vale",
+      "Highstone Loch"
+    ],
+    [
+      "Greenshore Bay",
+      "Greenshore Peninsula"
+    ],
+    [
+      "Greenshore Peninsula",
+      "Slakesands Mesa"
+    ],
+    [
+      "Gutras Hill",
+      "Runnel Sink"
+    ],
+    [
+      "Gwan Gorge",
+      "Murky Fen"
+    ],
+    [
+      "Gwan Gorge",
+      "Swamp Cross"
+    ],
+    [
+      "Gwan Gorge",
+      "Windripple Fen"
+    ],
+    [
+      "Haldon Tor",
+      "Mase Knoll"
+    ],
+    [
+      "Haytor",
+      "Lewsdon Hill"
+    ],
+    [
+      "Haytor",
+      "Martlock"
+    ],
+    [
+      "Highbole Glen",
+      "Hornbeam Wood"
+    ],
+    [
+      "Highbole Glen",
+      "Murkweald"
+    ],
+    [
+      "Highbole Glen",
+      "Nightbloom Forest"
+    ],
+    [
+      "Highbole Glen",
+      "Owlsong Glen"
+    ],
+    [
+      "Highland Cross",
+      "Mase Knoll"
+    ],
+    [
+      "Highland Cross",
+      "Slimehag"
+    ],
+    [
+      "Highstone Grassland",
+      "Windgrass Fields"
+    ],
+    [
+      "Highstone Loch",
+      "Highstone Plains"
+    ],
+    [
+      "Highstone Loch",
+      "Parchsand Cliffs"
+    ],
+    [
+      "Highstone Loch",
+      "Smuggler's Den"
+    ],
+    [
+      "Highstone Meadow",
+      "Highstone Plains"
+    ],
+    [
+      "Highstone Meadow",
+      "Highstone Plateau"
+    ],
+    [
+      "Highstone Meadow",
+      "Razorrock Verge"
+    ],
+    [
+      "Highstone Mound",
+      "Highstone Plateau"
+    ],
+    [
+      "Highstone Mound",
+      "Twinchannel Narrows"
+    ],
+    [
+      "Hightree Borderlands",
+      "Hightree Hillock"
+    ],
+    [
+      "Hightree Borderlands",
+      "Thunderrock Rapids"
+    ],
+    [
+      "Hightree Cliffs",
+      "Hightree Enclave"
+    ],
+    [
+      "Hightree Cliffs",
+      "Hightree Glade"
+    ],
+    [
+      "Hightree Cliffs",
+      "Whitecliff Expanse"
+    ],
+    [
+      "Hightree Dale",
+      "Hightree Isle"
+    ],
+    [
+      "Hightree Dale",
+      "Lymhurst Portal"
+    ],
+    [
+      "Hightree Enclave",
+      "Hightree Levee"
+    ],
+    [
+      "Hightree Enclave",
+      "Lymhurst Portal"
+    ],
+    [
+      "Hightree Glade",
+      "Hightree Isle"
+    ],
+    [
+      "Hightree Glade",
+      "Lymhurst Portal"
+    ],
+    [
+      "Hightree Hillock",
+      "Hightree Strand"
+    ],
+    [
+      "Hightree Isle",
+      "Watchwood Grove"
+    ],
+    [
+      "Hightree Lake",
+      "Hightree Pass"
+    ],
+    [
+      "Hightree Lake",
+      "Lymhurst Portal"
+    ],
+    [
+      "Hightree Lake",
+      "Thunderrock Rapids"
+    ],
+    [
+      "Hightree Levee",
+      "Hightree Strand"
+    ],
+    [
+      "Hightree Levee",
+      "Thirstwater Steppe"
+    ],
+    [
+      "Hightree Levee",
+      "Thirstwater Waste"
+    ],
+    [
+      "Hightree Pass",
+      "Hightree Steep"
+    ],
+    [
+      "Hightree Pass",
+      "Munten Tundra"
+    ],
+    [
+      "Hightree Steep",
+      "Lymhurst Portal"
+    ],
+    [
+      "Hightree Strand",
+      "Lymhurst Portal"
+    ],
+    [
+      "Hornbeam Wood",
+      "Yew Wood"
+    ],
+    [
+      "Iceburn Cliffs",
+      "Iceburn Peaks"
+    ],
+    [
+      "Iceburn Cliffs",
+      "Runnelvein Bog"
+    ],
+    [
+      "Iceburn Firth",
+      "Iceburn Tundra"
+    ],
+    [
+      "Iceburn Firth",
+      "Smuggler's Den"
+    ],
+    [
+      "Iceburn Firth",
+      "Thunderrock Draw"
+    ],
+    [
+      "Iceburn Peaks",
+      "Iceburn Tundra"
+    ],
+    [
+      "Iceburn Peaks",
+      "Runnelvein Slough"
+    ],
+    [
+      "Inis Mon",
+      "Owlsong Glen"
+    ],
+    [
+      "Inis Mon",
+      "Rowanwood"
+    ],
+    [
+      "Kilmar Tor",
+      "Redstone Plain"
+    ],
+    [
+      "Kilmar Tor",
+      "Saddle Tor"
+    ],
+    [
+      "Kilmar Tor",
+      "Vixen Tor"
+    ],
+    [
+      "Kindlegrass Steppe",
+      "Longshadow Plain"
+    ],
+    [
+      "Larchroad",
+      "Mawar Gorge"
+    ],
+    [
+      "Larchroad",
+      "Mountain Cross"
+    ],
+    [
+      "Lazygrass Plain",
+      "Slowtree Plain"
+    ],
+    [
+      "Lazygrass Plain",
+      "Snapshaft Trough"
+    ],
+    [
+      "Lewsdon Hill",
+      "Wanderlure Basin"
+    ],
+    [
+      "Longfen Arms",
+      "Redtree Enclave"
+    ],
+    [
+      "Longfen Veins",
+      "Whitewall Pass"
+    ],
+    [
+      "Longmarch Meadow",
+      "Prospector's Hope"
+    ],
+    [
+      "Longmarch Meadow",
+      "Snapshaft Trough"
+    ],
+    [
+      "Longshadow Plain",
+      "Parchthroat Plain"
+    ],
+    [
+      "Longshadow Plain",
+      "Snapshaft Trough"
+    ],
+    [
+      "Longshadow Plain",
+      "Spindlewood"
+    ],
+    [
+      "Longtimber Glen",
+      "Nightbloom Forest"
+    ],
+    [
+      "Longtimber Glen",
+      "Wyre Forest"
+    ],
+    [
+      "Lymhurst",
+      "Lymhurst Market"
+    ],
+    [
+      "Lymhurst",
+      "Stagbourne"
+    ],
+    [
+      "Lymhurst",
+      "Yew Wood"
+    ],
+    [
+      "Lymhurst Portal",
+      "Watchwood Grove"
+    ],
+    [
+      "Lymhurst Portal",
+      "Watchwood Precipice"
+    ],
+    [
+      "Mardale",
+      "Roastcorpse Steppe"
+    ],
+    [
+      "Mardale",
+      "Runnel Sink"
+    ],
+    [
+      "Martlock",
+      "Martlock Market"
+    ],
+    [
+      "Martlock",
+      "Mase Knoll"
+    ],
+    [
+      "Martlock Portal",
+      "Mudfoot Sump"
+    ],
+    [
+      "Martlock Portal",
+      "Windgrass Border"
+    ],
+    [
+      "Martlock Portal",
+      "Windgrass Gully"
+    ],
+    [
+      "Martlock Portal",
+      "Windgrass Precipice"
+    ],
+    [
+      "Martlock Portal",
+      "Windgrass Rill"
+    ],
+    [
+      "Mawar Gorge",
+      "Pen Kerrig"
+    ],
+    [
+      "Mawar Gorge",
+      "Tharcal Fissure"
+    ],
+    [
+      "Meltwater Bog",
+      "Meltwater Channel"
+    ],
+    [
+      "Meltwater Bog",
+      "Smuggler's Den"
+    ],
+    [
+      "Meltwater Delta",
+      "Meltwater Sump"
+    ],
+    [
+      "Meltwater Delta",
+      "Whitebank Descent"
+    ],
+    [
+      "Mountain Fort",
+      "The Cove"
+    ],
+    [
+      "Mudfoot Mounds",
+      "Mudfoot Sump"
+    ],
+    [
+      "Mudfoot Sump",
+      "Windgrass Terrace"
+    ],
+    [
+      "Munten Fell",
+      "Munten Rise"
+    ],
+    [
+      "Munten Fell",
+      "Smuggler's Den"
+    ],
+    [
+      "Munten Fell",
+      "Watchwood Lakeside"
+    ],
+    [
+      "Munten Rise",
+      "Munten Tundra"
+    ],
+    [
+      "Munten Rise",
+      "Watchwood Precipice"
+    ],
+    [
+      "Murdergulch Cross",
+      "Murdergulch Divide"
+    ],
+    [
+      "Murdergulch Cross",
+      "Murdergulch Trail"
+    ],
+    [
+      "Murdergulch Cross",
+      "Smuggler's Den"
+    ],
+    [
+      "Murdergulch Cross",
+      "Whitepeak Ascent"
+    ],
+    [
+      "Murdergulch Cross",
+      "Willowshade Sink"
+    ],
+    [
+      "Murdergulch Divide",
+      "Murdergulch Gap"
+    ],
+    [
+      "Murdergulch Gap",
+      "Murdergulch Ravine"
+    ],
+    [
+      "Murdergulch Ravine",
+      "Smuggler's Den"
+    ],
+    [
+      "Murkweald",
+      "Wyre Forest"
+    ],
+    [
+      "Murky Fen",
+      "Pen Fenair"
+    ],
+    [
+      "Nightcreak Marsh",
+      "Slithertail Marsh"
+    ],
+    [
+      "Nightcreak Marsh",
+      "Willowsigh Marsh"
+    ],
+    [
+      "Northstrand Beach",
+      "Northstrand Dunes"
+    ],
+    [
+      "Northstrand Beach",
+      "Timbertop Dale"
+    ],
+    [
+      "Northstrand Dunes",
+      "Timbertop Wood"
+    ],
+    [
+      "Oakcopse",
+      "Rowanwood"
+    ],
+    [
+      "Oakcopse",
+      "Russerdell"
+    ],
+    [
+      "Parchsand Cliffs",
+      "Parchsand Drought"
+    ],
+    [
+      "Parchsand Cliffs",
+      "Razorrock Edge"
+    ],
+    [
+      "Parchsand Drought",
+      "Razorrock Valley"
+    ],
+    [
+      "Parchthroat Plain",
+      "Pinecopse"
+    ],
+    [
+      "Parchthroat Plain",
+      "Sandgust Cleft"
+    ],
+    [
+      "Pen Fenair",
+      "Pen Uchaf"
+    ],
+    [
+      "Pen Garn",
+      "Pen Gent"
+    ],
+    [
+      "Pen Garn",
+      "Pen Uchaf"
+    ],
+    [
+      "Pen Kerrig",
+      "Rowanwood"
+    ],
+    [
+      "Pinecopse",
+      "Spindlewood"
+    ],
+    [
+      "Pinecopse",
+      "Steelhide Meadow"
+    ],
+    [
+      "Prospector's Hope",
+      "Steppe Cross"
+    ],
+    [
+      "Razorrock Bank",
+      "Razorrock Gulch"
+    ],
+    [
+      "Razorrock Bank",
+      "Razorrock Valley"
+    ],
+    [
+      "Razorrock Bank",
+      "Smuggler's Den"
+    ],
+    [
+      "Razorrock Chasm",
+      "Razorrock Passage"
+    ],
+    [
+      "Razorrock Chasm",
+      "Razorrock Valley"
+    ],
+    [
+      "Razorrock Edge",
+      "Razorrock Valley"
+    ],
+    [
+      "Razorrock Edge",
+      "Razorrock Verge"
+    ],
+    [
+      "Razorrock Gulch",
+      "Razorrock Ravine"
+    ],
+    [
+      "Razorrock Gulch",
+      "Sunfang Cliffs"
+    ],
+    [
+      "Razorrock Ravine",
+      "Sunfang Dawn"
+    ],
+    [
+      "Razorrock Ravine",
+      "Sunfang Wasteland"
+    ],
+    [
+      "Razorrock Verge",
+      "Smuggler's Den"
+    ],
+    [
+      "Redlake",
+      "Stagbourne"
+    ],
+    [
+      "Redstone Plain",
+      "Smoothfloor Cleft"
+    ],
+    [
+      "Rivercopse Crossing",
+      "Rivercopse Curve"
+    ],
+    [
+      "Rivercopse Crossing",
+      "Rivercopse Fount"
+    ],
+    [
+      "Rivercopse Crossing",
+      "Rivercopse Path"
+    ],
+    [
+      "Rivercopse Crossing",
+      "Wailing Bulwark"
+    ],
+    [
+      "Rivercopse Curve",
+      "Sunkenbough Woods"
+    ],
+    [
+      "Rivercopse Curve",
+      "Thunderrock Upland"
+    ],
+    [
+      "Rivercopse Fount",
+      "Smuggler's Den"
+    ],
+    [
+      "Rivercopse Fount",
+      "Thunderrock Ascent"
+    ],
+    [
+      "Rivercopse Fount",
+      "Thunderrock Upland"
+    ],
+    [
+      "Rivercopse Path",
+      "Sunfang Ravine"
+    ],
+    [
+      "Rowanwood",
+      "Russerdell"
+    ],
+    [
+      "Runnel Sink",
+      "Stumprot Swamp"
+    ],
+    [
+      "Runnelvein Bog",
+      "Runnelvein Slough"
+    ],
+    [
+      "Runnelvein Sink",
+      "Runnelvein Slough"
+    ],
+    [
+      "Runnelvein Sink",
+      "Smuggler's Den"
+    ],
+    [
+      "Sandgust Cleft",
+      "Steelhide Meadow"
+    ],
+    [
+      "Sandmount Ascent",
+      "Sandmount Strand"
+    ],
+    [
+      "Sandmount Desert",
+      "Sandmount Esker"
+    ],
+    [
+      "Sandmount Desert",
+      "Windgrass Coast"
+    ],
+    [
+      "Sandmount Strand",
+      "Westweald Shore"
+    ],
+    [
+      "Sandrift Coast",
+      "Sandrift Expanse"
+    ],
+    [
+      "Sandrift Coast",
+      "Sandrift Fringe"
+    ],
+    [
+      "Sandrift Dunes",
+      "Sandrift Prairie"
+    ],
+    [
+      "Sandrift Dunes",
+      "Sandrift Steppe"
+    ],
+    [
+      "Sandrift Expanse",
+      "Sandrift Steppe"
+    ],
+    [
+      "Sandrift Expanse",
+      "Southgrove Copse"
+    ],
+    [
+      "Sandrift Fringe",
+      "Sandrift Shore"
+    ],
+    [
+      "Sandrift Prairie",
+      "Stonelake Fields"
+    ],
+    [
+      "Sandrift Steppe",
+      "Springsump Melt"
+    ],
+    [
+      "Scuttlesink Marsh",
+      "Scuttlesink Pools"
+    ],
+    [
+      "Scuttlesink Marsh",
+      "Smuggler's Den"
+    ],
+    [
+      "Scuttlesink Mouth",
+      "Scuttlesink Pools"
+    ],
+    [
+      "Scuttlesink Pools",
+      "Timbertop Dale"
+    ],
+    [
+      "Shaleheath Hills",
+      "Shaleheath Steep"
+    ],
+    [
+      "Shaleheath Hills",
+      "Timbertop Escarp"
+    ],
+    [
+      "Skullmarsh Lower",
+      "Skullmarsh Upper"
+    ],
+    [
+      "Skullmarsh Lower",
+      "Watchwood Grove"
+    ],
+    [
+      "Skullmarsh Upper",
+      "Watchwood Bluffs"
+    ],
+    [
+      "Skylake Bridge",
+      "Skylake Hinterlands"
+    ],
+    [
+      "Skylake Bridge",
+      "Timberslope Bridge"
+    ],
+    [
+      "Slakesands Canyon",
+      "Slakesands Mesa"
+    ],
+    [
+      "Slakesands Mesa",
+      "Smuggler's Den"
+    ],
+    [
+      "Slakesands Mesa",
+      "Watchwood Bluffs"
+    ],
+    [
+      "Sleetwater Basin",
+      "Willowsigh Marsh"
+    ],
+    [
+      "Sleetwater Basin",
+      "Windripple Fen"
+    ],
+    [
+      "Slithertail Marsh",
+      "Stumprot Swamp"
+    ],
+    [
+      "Slithertail Marsh",
+      "Wanderlure Basin"
+    ],
+    [
+      "Smoothfloor Cleft",
+      "Vixen Tor"
+    ],
+    [
+      "Smuggler's Den",
+      "Springsump Basin"
+    ],
+    [
+      "Smuggler's Den",
+      "Sunfang Ravine"
+    ],
+    [
+      "Smuggler's Den",
+      "Sunfang Wasteland"
+    ],
+    [
+      "Smuggler's Den",
+      "Sunkenbough Woods"
+    ],
+    [
+      "Smuggler's Den",
+      "Sunstrand Quicksands"
+    ],
+    [
+      "Smuggler's Den",
+      "Thirstwater Steppe"
+    ],
+    [
+      "Smuggler's Den",
+      "Timberscar Copse"
+    ],
+    [
+      "Smuggler's Den",
+      "Timberslope Grove"
+    ],
+    [
+      "Smuggler's Den",
+      "Westweald Thicket"
+    ],
+    [
+      "Smuggler's Den",
+      "Whitepeak Tundra"
+    ],
+    [
+      "Smuggler's Den",
+      "Willowshade Hills"
+    ],
+    [
+      "Smuggler's Den",
+      "Willowshade Icemarsh"
+    ],
+    [
+      "Southgrove Copse",
+      "Southgrove Escarp"
+    ],
+    [
+      "Southgrove Copse",
+      "Southgrove Thicket"
+    ],
+    [
+      "Southgrove Escarp",
+      "Sunstrand Quicksands"
+    ],
+    [
+      "Southgrove Thicket",
+      "Sunstrand Quicksands"
+    ],
+    [
+      "Southgrove Thicket",
+      "Sunstrand Shoal"
+    ],
+    [
+      "Spindlewood",
+      "Willow Wood"
+    ],
+    [
+      "Springsump Basin",
+      "Springsump Melt"
+    ],
+    [
+      "Springsump Basin",
+      "Springsump Wetland"
+    ],
+    [
+      "Stinkhag",
+      "Swamp Cross"
+    ],
+    [
+      "Stonelake Fields",
+      "Stonelake Hillock"
+    ],
+    [
+      "Stonemouth Bay",
+      "Stonemouth Northbluff"
+    ],
+    [
+      "Stonemouth Bay",
+      "Sunstrand Shoal"
+    ],
+    [
+      "Stonemouth Northbluff",
+      "Whitecliff Peak"
+    ],
+    [
+      "Stonemouth Southbluff",
+      "Sunstrand Delta"
+    ],
+    [
+      "Stonemouth Southbluff",
+      "Sunstrand Quicksands"
+    ],
+    [
+      "Sunfang Approach",
+      "Sunfang Dawn"
+    ],
+    [
+      "Sunfang Approach",
+      "Sunfang Ravine"
+    ],
+    [
+      "Sunfang Cliffs",
+      "Sunfang Wasteland"
+    ],
+    [
+      "Sunfang Wasteland",
+      "Wailing Bulwark"
+    ],
+    [
+      "Sunkenbough Spring",
+      "Sunkenbough Woods"
+    ],
+    [
+      "Sunstrand Delta",
+      "Sunstrand Dunes"
+    ],
+    [
+      "Sunstrand Dunes",
+      "Sunstrand Quicksands"
+    ],
+    [
+      "Swiftsands Basin",
+      "Swiftsands Plain"
+    ],
+    [
+      "Swiftsands Basin",
+      "Timberslope Dell"
+    ],
+    [
+      "Swiftsands Chaparral",
+      "Swiftsands Plain"
+    ],
+    [
+      "Swiftsands Chaparral",
+      "Timberslope Grove"
+    ],
+    [
+      "Swiftsands Chaparral",
+      "Wetgrave Swale"
+    ],
+    [
+      "Thetford",
+      "Thetford Market"
+    ],
+    [
+      "Thetford",
+      "Willowsigh Marsh"
+    ],
+    [
+      "Thetford",
+      "Windripple Fen"
+    ],
+    [
+      "Thetford Portal",
+      "Widemoor Delta"
+    ],
+    [
+      "Thetford Portal",
+      "Widemoor Estuary"
+    ],
+    [
+      "Thetford Portal",
+      "Widemoor Pool"
+    ],
+    [
+      "Thetford Portal",
+      "Widemoor Shore"
+    ],
+    [
+      "Thetford Portal",
+      "Willowshade Wetlands"
+    ],
+    [
+      "Thirstwater Gully",
+      "Thirstwater Steppe"
+    ],
+    [
+      "Thirstwater Gully",
+      "Thirstwater Waste"
+    ],
+    [
+      "Thirstwater Steppe",
+      "Whitecliff Peak"
+    ],
+    [
+      "Thunderrock Ascent",
+      "Thunderrock Draw"
+    ],
+    [
+      "Timberscar Copse",
+      "Widemoor End"
+    ],
+    [
+      "Timberscar Dell",
+      "Widemoor End"
+    ],
+    [
+      "Timberscar Dell",
+      "Willowshade Pools"
+    ],
+    [
+      "Timberslope Bridge",
+      "Timberslope Grove"
+    ],
+    [
+      "Timberslope Bridge",
+      "Wetgrave Swale"
+    ],
+    [
+      "Timberslope Dell",
+      "Timberslope Grove"
+    ],
+    [
+      "Timbertop Dale",
+      "Timbertop Escarp"
+    ],
+    [
+      "Timbertop Dale",
+      "Timbertop Wood"
+    ],
+    [
+      "Twinchannel Narrows",
+      "Unhallowed Cloister"
+    ],
+    [
+      "Unhallowed Cloister",
+      "Willowshade Icemarsh"
+    ],
+    [
+      "Wanderlure Basin",
+      "Wispwhisper Marsh"
+    ],
+    [
+      "Watchwood Bluffs",
+      "Watchwood Grove"
+    ],
+    [
+      "Watchwood Bluffs",
+      "Watchwood Precipice"
+    ],
+    [
+      "Watchwood Lakeside",
+      "Watchwood Precipice"
+    ],
+    [
+      "Westweald Shore",
+      "Westweald Thicket"
+    ],
+    [
+      "Wetgrave Bog",
+      "Wetgrave Marsh"
+    ],
+    [
+      "Wetgrave Bog",
+      "Wetgrave Swale"
+    ],
+    [
+      "Whitebank Cross",
+      "Whitebank Wall"
+    ],
+    [
+      "Whitebank Descent",
+      "Whitebank Ridge"
+    ],
+    [
+      "Whitebank Ridge",
+      "Whitebank Stream"
+    ],
+    [
+      "Whitebank Stream",
+      "Whitebank Wall"
+    ],
+    [
+      "Whitecliff Expanse",
+      "Whitecliff Peak"
+    ],
+    [
+      "Whitepeak Ascent",
+      "Whitepeak Spring"
+    ],
+    [
+      "Whitepeak Spring",
+      "Willowshade Pools"
+    ],
+    [
+      "Whitepeak Spring",
+      "Willowshade Sink"
+    ],
+    [
+      "Whitewall Pass",
+      "Whitewall Ridge"
+    ],
+    [
+      "Widemoor Delta",
+      "Widemoor Flats"
+    ],
+    [
+      "Widemoor End",
+      "Widemoor Pool"
+    ],
+    [
+      "Widemoor Estuary",
+      "Widemoor Flats"
+    ],
+    [
+      "Widemoor Estuary",
+      "Widemoor Woods"
+    ],
+    [
+      "Widemoor Fen",
+      "Widemoor Flats"
+    ],
+    [
+      "Widemoor Hills",
+      "Widemoor Pool"
+    ],
+    [
+      "Widemoor Hills",
+      "Widemoor Shore"
+    ],
+    [
+      "Widemoor Woods",
+      "Willowshade Hills"
+    ],
+    [
+      "Widemoor Woods",
+      "Willowshade Wetlands"
+    ],
+    [
+      "Willowshade Hills",
+      "Willowshade Mire"
+    ],
+    [
+      "Willowshade Lake",
+      "Willowshade Mire"
+    ],
+    [
+      "Willowshade Lake",
+      "Willowshade Sink"
+    ],
+    [
+      "Willowshade Pools",
+      "Willowshade Wetlands"
+    ],
+    [
+      "Windgrass Border",
+      "Windgrass Fields"
+    ],
+    [
+      "Windgrass Coast",
+      "Windgrass Gully"
+    ],
+    [
+      "Windgrass Coast",
+      "Windgrass Precipice"
+    ],
+    [
+      "Windgrass Fields",
+      "Windgrass Rill"
+    ],
+    [
+      "Windgrass Rill",
+      "Windgrass Terrace"
+    ]
+  ]
+}
